@@ -1,5 +1,5 @@
-<a href="https://github.com/kckarnige/improved-dc-ui">
-<img src="https://kckarnige.github.io/improved-dc-ui/banner.png" height="75%" width="75%">
+<a href="https://github.com/kckarnige/improved-ui">
+<img src="https://kckarnige.github.io/improved-ui/banner.png" height="75%" width="75%">
 </a>
 
 *I made this, first out of boredom, but now I genuinely want to make a good theme :D*
