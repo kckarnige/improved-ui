@@ -1,0 +1,8 @@
+{
+    "name": "Improved Discord UI",
+    "description": "A simple UI improvement",
+    "version": "2.2.2",
+    "author": "KayoticCarnige",
+    "theme": "improvedui.theme.css",
+    "license": "MIT"
+}

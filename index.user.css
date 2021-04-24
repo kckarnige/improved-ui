@@ -1,0 +1,156 @@
+ /* ==UserStyle==
+@name         Improved Discord UI
+@description  A simple UI improvement by KayoticCarnige
+@author       KayoticCarnige
+@namespace    https://github.com/kckarnige/kckarnige.github.io/tree/master/femboi_owo/improved-dc-ui
+@homepageURL  https://github.com/kckarnige/kckarnige.github.io/tree/master/femboi_owo/improved-dc-ui
+@version      2.2.2
+@changelog    Removed the dynamic color themes
+==/UserStyle== */
+@-moz-document domain("discord.com") {
+ 
+@import url('https://kckarnige.github.io/improved-dc-ui/base.css');
+  
+/* Preset Colors: standard-blurple (Default) / canary-gold / greyple / bingus-red / bandaged-blue */
+/* Example: --main-color: var(--custom-color); or --main-color: #7289dafe; (YOU MUST ADD 'FE' AT THE END OF YOUR HEX CODE) */
+root { 
+    --main-color: var(--standard-blurple); 
+    --ping-color: #f04747fe;
+    --selector-color: var(--standard-blurple);
+}
+        
+    .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+.wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+.childWrapper-anI2G9 {
+    color: #fff;
+    background: #0000;
+}
+    
+.activeLink-22b0_I {
+    background-color: var(--main-color) !important;
+    border-radius: 25px;
+    color: #fff;
+    transition:.3s;
+}
+    
+.navLinkMedium-4MZo72 {
+    border-radius: 25px;
+    transition:.2s;
+}
+    
+.navLinkMedium-4MZo72:hover {
+    border-radius: 25px;
+    background-color: #23272a
+}
+    
+.filledBrand-pyfKOu {
+    background: var(--main-color);
+    border-radius: 25px;
+}
+    
+.filledBrand-pyfKOu:hover {
+    background: var(--main-color);
+    border-radius: 25px;
+    filter: brightness(75%);
+    transition:.2s;
+}
+
+.header-2V-4Sw {
+    z-index: 0;
+}
+
+.searchBar-6Kv8R2 {
+    z-index: 0;
+}
+    
+.themeDefault-24hCdX .input-rwLH4i:checked+.indicator-3onuwD {
+    background-color: var(--main-color);
+}
+    
+.wanderingCubesItem-WPXqao {
+    background-color: var(--main-color);
+}
+    
+.filledWhite-35QGck {
+    background: var(--main-color);
+    color: #fff;
+}
+    
+.tipTitle-GL9qAt {
+    color: var(--main-color);
+}
+    
+.scrollableContainer-2NUZem {
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-right: 12px;
+}
+    
+#app-mount .container-3baos1 .avatarWrapper-2yR4wp {
+    background-color: transparent;
+}
+    
+.scrollableContainer-2NUZem::-webkit-scrollbar {
+  width: 0.4em;
+  background: var(--scrollbar-thin-track);
+  border-radius: 25px;
+}
+.scrollableContainer-2NUZem::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thin-thumb);
+  border-radius: 25px;
+}
+
+.numberBadge-2s8kKX {
+    background-color: var(--ping-color) !important;
+}
+
+.title-29uC1r {
+    user-select: text !important;
+    cursor: text !important;
+}
+
+::selection {
+    background-color: var(--selector-color) !important;
+    color: #fff !important;
+}
+ 
+.username-1A8OIy, .roleColor-rz2vM0 {
+    filter: brightness(100%);
+}
+
+/* Custom Server Names */
+
+nav[aria-label="Lighty Emojis (server)"] h1.name-1jkAdW {
+    font-family: "Discordinated";
+    font-weight: normal;
+    font-size: 22px;
+    transform: translateX(6%);
+}
+
+nav[aria-label="Lighty Emojis (server)"]::before {
+    content: url('https://kckarnige.github.io/femboi_owo/improved-dc-ui/res/lightcord4text.svg') ' Unofficial Lightcord Server';
+    transform: translate(10%, 70%);
+    color: var(--channels-default);
+    font-weight: 600;
+    font-size: 12px;
+}
+
+nav[aria-label="BetterDiscord (server)"] h1.name-1jkAdW {
+    font-family: "Discordinated";
+    font-weight: normal;
+    font-size: 20px;
+    transform: translateX(0%);
+}
+
+nav[aria-label="BetterDiscord (server)"]::before {
+    content: url('https://kckarnige.github.io/femboi_owo/improved-dc-ui/res/bd4text.svg') ' Official BetterDiscord Server';
+    transform: translate(10%, 70%);
+    color: var(--channels-default);
+    font-weight: 600;
+    font-size: 12px;
+}
+}

@@ -1,0 +1,225 @@
+@import url('https://raw.githack.com//Discord-Theme-Addons/refined-user-connections/main/src/support/RefinedUserConections.theme.css');
+@import url('https://tomrdh.github.io/discord-addons/xcores/themes/RNT_Core.css'); /* <-- No Nitro */
+@import url('https://discord-theme-addons.github.io/compact-userarea/src/support/compiled.css');
+@import url('https://raw.githack.com/Discord-Theme-Addons/modern-channel-indicators/main/src/support/ModernChannelIndiactors.theme.css');
+@import url("https://discordstyles.github.io/RadialStatus/base.css");
+@import url("https://kckarnige.github.io/femboi_owo/discord-font.css");
+
+:root { /* Client Colors */
+    --standard-blurple: #7289dafe;
+    --canary-gold: #efb65ffe;
+    --greyple: #99aab5fe;
+    --bingus-red: #be3c41fe;
+    --bandaged-blue: #3e82e5fe;
+    --ping-color: #f04747fe;
+}
+
+:root { /* Status CSS */
+    --rs-small-spacing: 2px;  /* spacing between avatar and status */
+    --rs-large-spacing: 3px;  /* spacing between avatar and status for user popouts & modals/profiles | MUST end in px */
+    --rs-width: 2px;  /* Width/thickness of status border */
+    --rs-avatar-shape: 50%;  /* 50% for round - 0% for square */
+    --rs-online-color: #43b581;  /* color for online status */
+    --rs-idle-color: #faa61a;  /* color for idle status */
+    --rs-dnd-color: #f04747;  /* color for dnd status */
+    --rs-offline-color: #636b75;  /* color for offline status */
+    --rs-streaming-color: #643da7;  /* color for streaming status */
+    --rs-invisible-color: #747f8d;  /* color for invisible status - Note this will only show for your own invisibility */
+    --container-color: var(--background-floating);
+}
+  
+  :root { /* Channel Indicator CSS */
+      --unread-badge: rgba(255, 255, 255, 0.6);
+      --unread-bg: rgba(255, 255, 255, 0.01);
+      --selected-badge: rgb(112, 135, 215);
+      --selected-bg: rgba(112, 135, 215, 0.1);
+      --selected-bg-hover: rgba(112, 135, 215, 0.18);
+      --hovered-bg: rgba(79, 84, 92, 0.25);
+      --bg-rounding: 0 5px 5px 0;
+      --border-info: 2px solid;
+}
+
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+.wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+.childWrapper-anI2G9 {
+    color: #fff;
+    background: #0000;
+}
+    
+.activeLink-22b0_I {
+    background-color: var(--main-color) !important;
+    border-radius: 25px;
+    color: #fff;
+    transition:.3s;
+}
+    
+.navLinkMedium-4MZo72 {
+    border-radius: 25px;
+    transition:.2s;
+}
+    
+.navLinkMedium-4MZo72:hover {
+    border-radius: 25px;
+    background-color: #23272a
+}
+    
+.filledBrand-pyfKOu {
+    background: var(--main-color);
+    border-radius: 25px;
+}
+    
+.filledBrand-pyfKOu:hover {
+    background: var(--main-color);
+    border-radius: 25px;
+    filter: brightness(75%);
+    transition:.2s;
+}
+
+.header-2V-4Sw {
+    z-index: 0;
+}
+
+.searchBar-6Kv8R2 {
+    z-index: 0;
+}
+    
+.themeDefault-24hCdX .input-rwLH4i:checked+.indicator-3onuwD {
+    background-color: var(--main-color);
+}
+    
+.wanderingCubesItem-WPXqao {
+    background-color: var(--main-color);
+}
+    
+.filledWhite-35QGck {
+    background: var(--main-color);
+    color: #fff;
+}
+    
+.tipTitle-GL9qAt {
+    color: var(--main-color);
+}
+    
+.scrollableContainer-2NUZem {
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-right: 12px;
+}
+    
+#app-mount .container-3baos1 .avatarWrapper-2yR4wp {
+    background-color: transparent;
+}
+    
+.scrollableContainer-2NUZem::-webkit-scrollbar {
+  width: 0.4em;
+  background: var(--scrollbar-thin-track);
+  border-radius: 25px;
+}
+.scrollableContainer-2NUZem::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thin-thumb);
+  border-radius: 25px;
+}
+
+.numberBadge-2s8kKX {
+    background-color: var(--ping-color) !important;
+}
+
+.title-29uC1r {
+    user-select: text !important;
+    cursor: text !important;
+}
+
+::selection {
+    background-color: var(--selector-color) !important;
+    color: #fff !important;
+}
+
+/* =====For Desktop Users===== */
+
+/* Lightcord Settings Tab */
+
+div[aria-controls="lightcord-tab"].themed-OHr7kt.item-PXvHYJ {
+    color: #be3c41;
+}
+
+div[aria-controls="lightcord-tab"].themed-OHr7kt.item-PXvHYJ:hover {
+    color: #be3c41;
+    background: #be3c4125 !important;
+}
+
+div[aria-controls="lightcord-tab"].themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
+    color: #fff;
+    background: #be3c41 !important;
+}
+
+/* BandagedBD Settings Tab */
+
+div[aria-controls="core-tab"].themed-OHr7kt.item-PXvHYJ {
+    color: #3e82e5;
+}
+
+div[aria-controls="core-tab"].themed-OHr7kt.item-PXvHYJ:hover {
+    color: #3e82e5;
+    background: #3e82e525 !important;
+}
+
+div[aria-controls="core-tab"].themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
+    color: #fff;
+    background: #3e82e5 !important;
+}
+
+/* Wordart */
+
+.wordmark-2iDDfm svg {
+    width: 0px;
+}
+
+.wordmark-2iDDfm::after {
+    position: absolute;
+    font-family: "Discordinated";
+    content: var(--wordmark-text);
+    top: 3px;
+    font-size: 14px;
+    font-weight: normal;
+    color: var(--wordmark-text-color);
+    height: 19px;
+    width: 235px;
+    transform: translateY(-8%);
+    line-height: 20px;
+}
+
+/* Custom Server Names */
+
+nav[aria-label="Lighty Emojis (server)"] h1.name-1jkAdW {
+    font-family: "Discordinated";
+    font-weight: normal;
+    font-size: 22px;
+    transform: translateX(6%);
+}
+
+nav[aria-label="Lighty Emojis (server)"]::before {
+    content: url('https://kckarnige.github.io/femboi_owo/improved-dc-ui/res/lightcord4text.svg') ' Unofficial Lightcord Server';
+    transform: translate(10%, 70%);
+    color: var(--channels-default);
+    font-weight: 600;
+    font-size: 12px;
+}
+
+nav[aria-label="BetterDiscord (server)"] h1.name-1jkAdW {
+    font-family: "Discordinated";
+    font-weight: normal;
+    font-size: 20px;
+    transform: translateX(%);
+}
+
+nav[aria-label="BetterDiscord (server)"]::before {
+    content: url('https://kckarnige.github.io/femboi_owo/improved-dc-ui/res/bd4text.svg') ' Official BetterDiscord Server';
+    transform: translate(10%, 70%);
+    color: var(--channels-default);
+    font-weight: 600;
+    font-size: 12px;
+}
