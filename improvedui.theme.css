@@ -13,7 +13,7 @@
   
 /* Preset Colors: standard-blurple (Default) / canary-gold / greyple / bingus-red / bandaged-blue */
 /* Example: --main-color: var(--custom-color); or --main-color: #7289dafe; (YOU MUST ADD 'FE' AT THE END OF YOUR HEX CODE) */
-root { 
+:root { 
     --main-color: var(--standard-blurple); 
     --ping-color: #f04747fe;
     --selector-color: var(--standard-blurple);
