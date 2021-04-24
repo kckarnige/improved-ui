@@ -2,14 +2,14 @@
 @name         Improved Discord UI
 @description  A simple UI improvement by KayoticCarnige
 @author       KayoticCarnige
-@namespace    https://github.com/kckarnige/kckarnige.github.io/tree/master/femboi_owo/improved-dc-ui
-@homepageURL  https://github.com/kckarnige/kckarnige.github.io/tree/master/femboi_owo/improved-dc-ui
+@namespace    https://github.com/kckarnige/improved-ui
+@homepageURL  https://github.com/kckarnige/improved-ui
 @version      2.2.2
 @changelog    Removed the dynamic color themes
 ==/UserStyle== */
 @-moz-document domain("discord.com") {
  
-@import url('https://kckarnige.github.io/improved-dc-ui/base.css');
+@import url('https://kckarnige.github.io/improved-ui/base.css');
   
 /* Preset Colors: standard-blurple (Default) / canary-gold / greyple / bingus-red / bandaged-blue */
 /* Example: --main-color: var(--custom-color); or --main-color: #7289dafe; (YOU MUST ADD 'FE' AT THE END OF YOUR HEX CODE) */
