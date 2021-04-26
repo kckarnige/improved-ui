@@ -138,9 +138,9 @@
     color: #fff !important;
 }
 
-/* =====For Desktop Users===== */
+/* ======= For Desktop Users ======= */
 
-/* Lightcord Settings Tab */
+/* ===== Lightcord Settings Tab (For Lightcord) ===== */
 
 div[aria-controls="lightcord-tab"].themed-OHr7kt.item-PXvHYJ {
     color: #be3c41;
@@ -156,7 +156,7 @@ div[aria-controls="lightcord-tab"].themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
     background: #be3c41 !important;
 }
 
-/* BandagedBD Settings Tab */
+/* ===== BandagedBD Settings Tab (For BetterDiscord and Lightcord) ===== */
 
 div[aria-controls="core-tab"].themed-OHr7kt.item-PXvHYJ {
     color: #3e82e5;
@@ -172,7 +172,7 @@ div[aria-controls="core-tab"].themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
     background: #3e82e5 !important;
 }
 
-/* Wordart */
+/* ===== Discord Wordmark ===== */
 
 .wordmark-2iDDfm svg {
     width: 0px;
@@ -192,34 +192,85 @@ div[aria-controls="core-tab"].themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
     line-height: 20px;
 }
 
-/* Custom Server Names */
+/* ===== Custom Server Wordmarks ===== */
 
-nav[aria-label="Lighty Emojis (server)"] h1.name-1jkAdW {
-    font-family: "Discordinated";
-    font-weight: normal;
-    font-size: 22px;
-    transform: translateX(6%);
+/* Lighty Emojis */
+header[data-guild-id="831170964237713479"] > svg.button-1w5pas {
+    transform: translateY(5%);
 }
 
-nav[aria-label="Lighty Emojis (server)"]::before {
-    content: url('https://kckarnige.github.io/femboi_owo/improved-dc-ui/res/lightcord4text.svg') ' Unofficial Lightcord Server';
-    transform: translate(10%, 70%);
-    color: var(--channels-default);
-    font-weight: 600;
-    font-size: 12px;
+header[data-guild-id="831170964237713479"] > h1.name-1jkAdW {
+    font-size: 0px;
+    transform: translate(1.5%, 3%);
 }
 
-nav[aria-label="BetterDiscord (server)"] h1.name-1jkAdW {
-    font-family: "Discordinated";
-    font-weight: normal;
-    font-size: 20px;
-    transform: translateX(%);
+header[data-guild-id="831170964237713479"] > h1.name-1jkAdW:after {
+    content: url("https://kckarnige.github.io/improved-ui/res/lighty_server-wordmark.svg");
 }
 
-nav[aria-label="BetterDiscord (server)"]::before {
-    content: url('https://kckarnige.github.io/femboi_owo/improved-dc-ui/res/bd4text.svg') ' Official BetterDiscord Server';
-    transform: translate(10%, 70%);
-    color: var(--channels-default);
-    font-weight: 600;
-    font-size: 12px;
+header[data-guild-id="831170964237713479"] > div.guildIconContainer-2FW_iA {
+    transform: translate(-6%, 6%)
+}
+
+/* Bongo Was Here */
+header[data-guild-id="705908350218666117"] > svg.button-1w5pas {
+    transform: translateY(5%);
+}
+
+header[data-guild-id="705908350218666117"] > h1.name-1jkAdW {
+    font-size: 0px;
+    transform: translate(1.5%, 3%);
+}
+
+header[data-guild-id="705908350218666117"] > h1.name-1jkAdW:after {
+    content: url("https://kckarnige.github.io/improved-ui/res/bongocord_server-wordmark.svg");
+}
+
+header[data-guild-id="705908350218666117"] > div.guildIconContainer-2FW_iA {
+    transform: translate(-6%, 6%)
+}
+
+/* BetterDiscord */
+header[data-guild-id="86004744966914048"] > svg.button-1w5pas {
+    transform: translateY(5%);
+}
+
+header[data-guild-id="86004744966914048"] > h1.name-1jkAdW {
+    font-size: 0px;
+    transform: translate(1.5%, 3%);
+}
+
+header[data-guild-id="86004744966914048"] > h1.name-1jkAdW:after {
+    content: url("https://kckarnige.github.io/improved-ui/res/betterdiscord_server-wordmark.svg");
+}
+
+header[data-guild-id="86004744966914048"] > div.guildIconContainer-2FW_iA {
+    transform: translate(-6%, 6%)
+}
+
+/* BetterDiscord2 */
+header[data-guild-id="280806472928198656"] > svg.button-1w5pas {
+    transform: translateY(5%);
+}
+
+header[data-guild-id="280806472928198656"] > h1.name-1jkAdW {
+    font-size: 0px;
+    transform: translate(1.5%, 3%);
+}
+
+header[data-guild-id="280806472928198656"] > h1.name-1jkAdW:after {
+    content: url("https://kckarnige.github.io/improved-ui/res/betterdiscord2_server-wordmark.svg");
+}
+
+header[data-guild-id="280806472928198656"] > div.guildIconContainer-2FW_iA {
+    transform: translate(-6%, 6%)
+}
+
+/* ===== AccountSwitcher Password Input Box ===== */
+
+.content-1LAB8Z.content-mK72R6.thin-1ybCId.scrollerBase-289Jih > input[type="password"] {
+    background: var(--activity-card-background);
+    border-style: none;
+    border-radius: 5px;
+    color: #fff;
 }
