@@ -266,6 +266,28 @@ header[data-guild-id="280806472928198656"] > div.guildIconContainer-2FW_iA {
     transform: translate(-6%, 6%)
 }
 
+/* Powercord */
+header[data-guild-id="538759280057122817"] > svg.button-1w5pas {
+    transform: translateY(5%);
+}
+
+header[data-guild-id="538759280057122817"] > h1.name-1jkAdW {
+    font-size: 0px;
+    transform: translate(1.5%, 3%);
+}
+
+header[data-guild-id="538759280057122817"] > h1.name-1jkAdW:after {
+    content: url("https://kckarnige.github.io/improved-ui/res/betterdiscord2_server-wordmark.svg");
+}
+
+header[data-guild-id="538759280057122817"] > div.guildIconContainer-2FW_iA {
+    transform: translate(-6%, 6%)
+}
+
+header[data-guild-id="538759280057122817"] > .powercord-badge {
+    display: none;
+}
+
 /* ===== AccountSwitcher Password Input Box ===== */
 
 .content-1LAB8Z.content-mK72R6.thin-1ybCId.scrollerBase-289Jih > input[type="password"] {
