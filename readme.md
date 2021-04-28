@@ -4,7 +4,7 @@
 
 *I made this, first out of boredom, but now I genuinely want to make a good theme :D*
 
-**USRBG IS NOW INCLUDED! (You need to be running [DevilBro's plugin lib](https://github.com/mwittrien/BetterDiscordAddons) for this to work on BetterDiscord, sorry browser users :/)**
+**USRBG IS NOW INCLUDED! (You need to be running [DevilBro's plugin lib](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Library) for this to work on BetterDiscord, sorry browser users :/)**
 
 ### Preset Colors
 
