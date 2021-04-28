@@ -3,7 +3,8 @@
 @import url('https://discord-theme-addons.github.io/compact-userarea/src/support/compiled.css');
 @import url('https://raw.githack.com/Discord-Theme-Addons/modern-channel-indicators/main/src/support/ModernChannelIndiactors.theme.css');
 @import url("https://discordstyles.github.io/RadialStatus/base.css");
-@import url("https://raw.githubusercontent.com/Discord-Custom-Covers/usrbg/master/dist/usrbg.css");
+@import url("https://discord-custom-covers.github.io/usrbg/snippets/modals.css"); /* <-- USRGBG */
+@import url("https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css"); /* <-- USRGBG */
 @import url("https://kckarnige.github.io/femboi_owo/discord-font.css");
 
 :root { /* Client Colors */
