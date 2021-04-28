@@ -6,4 +6,4 @@
 
 [Tropical](https://github.com/Tropix126) - [USRBG](https://github.com/Discord-Custom-Covers/usrbg)
 
-[KayoticCarnige](https://github.com/kckarnige) - [Discord Logo Font/Discordinated Font (DeviantArt Link)](https://www.deviantart.com/carnigewashere/art/Discordinated-3-0-The-Best-Discord-Logo-Font-875000925)
+[KayoticCarnige/Me](https://github.com/kckarnige) - [Discord Logo Font/Discordinated Font (DeviantArt Link)](https://www.deviantart.com/carnigewashere/art/Discordinated-3-0-The-Best-Discord-Logo-Font-875000925), [Custom Server Logos](https://github.com/kckarnige/custom-server-logos)
