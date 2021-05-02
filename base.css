@@ -149,7 +149,7 @@
     border-top-color: var(--tooltip-color) !important;
 }
 
-.tooltipContent-bqVLWK > .row-1c01mR.rowGuildName-2wU3B_ > .guildNameText-3Zwx4p.guildNameTextLimitedSize-1C5cx8 {
+.tooltipContent-bqVLWK, .tooltipContent-bqVLWK > .row-1c01mR.rowGuildName-2wU3B_ > .guildNameText-3Zwx4p.guildNameTextLimitedSize-1C5cx8 {
     color: var(--tooltip-text-color) !important;
     font-weight: normal;
 }
