@@ -140,7 +140,7 @@
     color: #fff !important;
 }
 
-.tooltipPrimary-1d1ph4 {
+.tooltipPrimary-1d1ph4, .tooltipBlack-PPG47z {
     background: var(--tooltip-color) !important;
     color: var(--tooltip-text-color) !important;
 }
