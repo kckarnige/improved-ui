@@ -1,7 +1,7 @@
 /**
 
  * @name Improved Discord UI
- * @version 2.2.5
+ * @version 2.2.6
  * @description A simple UI improvement
  * @author KayoticCarnige
  * @source https://github.com/kckarnige/improved-ui
@@ -19,4 +19,6 @@
     --selector-color: var(--standard-blurple);
     --wordmark-text-color: #72767d;
     --wordmark-text: "Discord"; /* This should only be text (Example: Lightcord, Binguscord, BetterDiscord, Discord 2, I think you get it) */
+    --tooltip-color: var(--standard-blurple);
+    --tooltip-text-color: #fff;
 }

@@ -1,32 +1,11 @@
 /* Preset Colors: standard-blurple (Default) / canary-gold / greyple / bingus-red / bandaged-blue */
 /* Example: --main-color: var(--custom-color); or --main-color: #7289dafe; (YOU MUST ADD 'FE' AT THE END OF YOUR HEX CODE) */
-root { 
+:root { 
     --main-color: var(--standard-blurple); 
     --ping-color: #f04747fe;
     --selector-color: var(--standard-blurple);
     --wordmark-text-color: #72767d;
     --wordmark-text: "Discord"; /* This should only be text (Example: Lightcord, Binguscord, BetterDiscord, Discord 2, I think you get it) */
+    --tooltip-color: var(--standard-blurple);
+    --tooltip-text-color: #fff;
 }
-
-/* ===== Delete this Line to enable || 100% Optional RGB Wordmark Code =====
-
-@keyframes rainbow_animation {
-    0% {
-        background-position: 0%;
-    }
-
-    100% {
-        background-position: 200%;
-    }
-}
-
-.wordmark-2iDDfm:after {
-    background: linear-gradient(to right, #4848fffe, #00e1fffe, #20ff20fe, #eeff00fe, #ff9100fe, #ff3399fe, #4848fffe);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent !important;
-    animation: rainbow_animation linear 3s infinite;
-    background-size: 200% 100%;
-}
-
-/* */

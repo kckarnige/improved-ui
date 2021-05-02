@@ -4,8 +4,7 @@
 @author       KayoticCarnige
 @namespace    https://github.com/kckarnige/improved-ui
 @homepageURL  https://github.com/kckarnige/improved-ui
-@version      2.2.5
-@changelog    Removed the dynamic color themes
+@version      2.2.6
 ==/UserStyle== */
 @-moz-document domain("discord.com") {
  
@@ -15,7 +14,9 @@
 /* Example: --main-color: var(--custom-color); or --main-color: #7289dafe; (YOU MUST ADD 'FE' AT THE END OF YOUR HEX CODE) */
 :root { 
     --main-color: var(--standard-blurple); 
-    --ping-color: #f04747fe;
+    --ping-color: #f04747;
     --selector-color: var(--standard-blurple);
+    --tooltip-color: var(--standard-blurple);
+    --tooltip-text-color: #fff;
 }
 }
