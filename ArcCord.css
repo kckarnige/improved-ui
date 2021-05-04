@@ -1,0 +1,10 @@
+@import url('https://kckarnige.github.io/improved-ui/ArcCord.base.css');
+/* Preset Colors: standard-blurple (Default) / canary-gold / greyple / bingus-red / bandaged-blue */
+/* Example: --main-color: var(--custom-color); or --main-color: #7289dafe; (YOU MUST ADD 'FE' AT THE END OF YOUR HEX CODE) */
+:root { 
+    --main-color: var(--standard-blurple); 
+    --ping-color: #f04747;
+    --selector-color: var(--standard-blurple);
+    --tooltip-color: var(--standard-blurple);
+    --tooltip-text-color: #fff;
+}
