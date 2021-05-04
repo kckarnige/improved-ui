@@ -25,6 +25,8 @@ Greyple: #99AAB5
 
 <img src="https://kckarnige.github.io/res/powercord.svg" height="14px" width="14px"> Powercord Theme Install ```git clone https://github.com/kckarnige/improved-ui```
 
+<img src="https://raw.githubusercontent.com/smartfrigde/armcord/main/discord.ico" height="14px" width="14px"> [ArcCord guide](https://github.com/kckarnige/improved-ui/blob/master/arccord_guide.md)
+
 [Credit to these amazing people!](https://github.com/kckarnige/improved-dc-ui/blob/master/CREDITS.md)
 
 *[Oh, and uh Greyple and Blurple is property of Discord Inc and blah blah blah](https://discord.com/branding)*
