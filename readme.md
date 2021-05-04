@@ -4,7 +4,7 @@
 
 *I made this, first out of boredom, but now I genuinely want to make a good theme :D*
 
-**USRBG AND CUSTOM SERVER LOGOS ARE NOW INCLUDED! (You need to be running [DevilBro's plugin lib](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Library) for these to work on BetterDiscord, sorry browser users :/)**
+**USRBG AND CUSTOM SERVER LOGOS ARE NOW INCLUDED! (You need to be running [DevilBro's plugin lib](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Library) for USRBG to work on BetterDiscord, and CSL only works on Powercord atm :/)**
 
 ### Preset Colors
 
