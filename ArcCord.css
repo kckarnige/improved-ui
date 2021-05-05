@@ -7,5 +7,5 @@
     --selector-color: var(--main-color);
     --tooltip-color: var(--main-color);
     --tooltip-text-color: #fff;
-    --armcord-color: var(--standard-blurple);
+    --armcord-color: var(--main-color);
 }
