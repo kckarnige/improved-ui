@@ -16,9 +16,9 @@
 :root { 
     --main-color: var(--standard-blurple); 
     --ping-color: #f04747fe;
-    --selector-color: var(--standard-blurple);
+    --selector-color: var(--main-color);
     --wordmark-text-color: #72767d;
     --wordmark-text: "Discord"; /* This should only be text (Example: Lightcord, Binguscord, BetterDiscord, Discord 2, I think you get it) */
-    --tooltip-color: var(--standard-blurple);
+    --tooltip-color: var(--main-color);
     --tooltip-text-color: #fff;
 }
