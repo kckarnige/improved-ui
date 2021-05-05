@@ -160,5 +160,5 @@
 }
 
 .window-title:before {
-    color: var(--main-color) !important;
+    color: var(--armcord-color) !important;
 }
