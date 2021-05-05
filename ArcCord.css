@@ -4,8 +4,8 @@
 :root { 
     --main-color: var(--standard-blurple); 
     --ping-color: #f04747;
-    --selector-color: var(--standard-blurple);
-    --tooltip-color: var(--standard-blurple);
+    --selector-color: var(--main-color);
+    --tooltip-color: var(--main-color);
     --tooltip-text-color: #fff;
     --armcord-color: var(--standard-blurple);
 }
