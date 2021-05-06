@@ -162,3 +162,14 @@
 .window-title:before {
     color: var(--armcord-color) !important;
 }
+
+.info-1VyQPT:last-child:after {
+    content: "ArmCord 2.2.0";
+    height: auto;
+    line-height: 80%;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 12px;
+    font-family: Whitney;
+    text-transform: none;
+}
