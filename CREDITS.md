@@ -6,4 +6,6 @@
 
 [Tropical](https://github.com/Tropix126) - [USRBG](https://github.com/Discord-Custom-Covers/usrbg)
 
+[CanadaHonk](https://github.com/CanadaHonk) - [Revert Discord 2021 Branding](https://github.com/Goose-Nest/GT-RevertRebrand)
+
 [KayoticCarnige/Me](https://github.com/kckarnige) - [Discord Logo Font/Discordinated Font (DeviantArt Link)](https://www.deviantart.com/carnigewashere/art/Discordinated-3-0-The-Best-Discord-Logo-Font-875000925), [Custom Server Logos](https://github.com/kckarnige/custom-server-logos)
