@@ -19,7 +19,10 @@
     color: var(--brand-experiment);
     background: var(--brand-experiment-25a);
     text-decoration: none;
-    border-radius: 0px;}#app-mount .wrapper-3WhCwL:hover {
+    border-radius: 0px;
+}
+
+#app-mount .wrapper-3WhCwL:hover {
     color: #fff;
     background: var(--brand-experiment);
     text-decoration: none;
