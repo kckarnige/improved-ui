@@ -29,4 +29,5 @@ Greyple: #99AAB5
 
 [Credit to these amazing people!](https://github.com/kckarnige/improved-dc-ui/blob/master/CREDITS.md)
 
-*[Oh, and uh Greyple and Blurple is property of Discord Inc and blah blah blah](https://discord.com/branding)*
+*[The rebrand sucks ass smh](https://discord.com/branding)*
+[Here's the pre-rebrand colors](https://colorswall.com/palette/181/)
