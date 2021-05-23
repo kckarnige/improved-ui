@@ -3,3 +3,14 @@
 .window-title:before {
     color: var(--armcord-color) !important;
 }
+.titlebar {
+    background: var(--background-secondary-alt) !important;
+}
+
+.window-title:after, .window-title:before {
+    font-size: 16px;
+}
+
+.window-title {
+    transform: translate(10px, 6px) !important;
+}
