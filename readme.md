@@ -29,5 +29,4 @@ Greyple: #99AAB5
 
 [Credit to these amazing people!](https://github.com/kckarnige/improved-dc-ui/blob/master/CREDITS.md)
 
-*[The rebrand sucks ass smh](https://discord.com/branding)*
-[Here's the pre-rebrand colors](https://colorswall.com/palette/181/)
+*[The rebrand sucks ass smh](https://discord.com/branding)*, [here's the pre-rebrand colors](https://colorswall.com/palette/181/)
