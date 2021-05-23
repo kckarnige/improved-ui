@@ -1,9 +1,5 @@
 @import url("https://kckarnige.github.io/improved-ui/base.css");
 
-.platform-web .container-3baos1 .avatarWrapper-2yR4wp {
-    top: 37px !important;
-}
-
 .window-title:before {
     color: var(--armcord-color) !important;
 }
