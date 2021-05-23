@@ -14,3 +14,32 @@
 .window-title {
     transform: translate(10px, 6px) !important;
 }
+
+#app-mount .wrapper-3WhCwL {
+    color: var(--brand-experiment);
+    background: var(--brand-experiment-25a);
+    text-decoration: none;
+    border-radius: 0px;}#app-mount .wrapper-3WhCwL:hover {
+    color: #fff;
+    background: var(--brand-experiment);
+    text-decoration: none;
+    transition: 0s;
+}
+
+.toolbar-1t6TWx .search-36MZv- .search-2oPWTC:not(.open-6_Y_aH) .searchBar-3dMhjb .icon-3cZ1F_ {
+    color: #ffffff !important;
+    height: 23px;
+    width: 23px;
+    top: 0;
+}
+
+.toolbar-1t6TWx .search-36MZv- .search-2oPWTC.open-6_Y_aH .searchBar-3dMhjb {
+    width: 240px;
+    background-color: var(--brand-experiment);
+    color: #ffffff;
+    transition: all 0.6s ease-in-out;
+}
+
+.public-DraftEditorPlaceholder-inner, .clear-1pMieT .icon-3cZ1F_, .icon-3cZ1F_ {
+    color: #ffffff;
+}
