@@ -16,7 +16,8 @@
     color: var(--brand-experiment);
     background: var(--brand-experiment-25a);
     text-decoration: none;
-    border-radius: 0px;
+    border-radius: 4px;
+    padding: 2px;
 }
 
 #app-mount .wrapper-3WhCwL:hover {
