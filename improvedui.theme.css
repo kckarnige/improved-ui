@@ -21,4 +21,6 @@
     --wordmark-text: "Discord"; /* This should only be text (Example: Lightcord, Binguscord, BetterDiscord, Discord 2, I think you get it) */
     --tooltip-color: var(--main-color);
     --tooltip-text-color: #fff;
+    --nitro-color: #7289DA;
+    --nitro-bg-color: #7289DA29;
 }
