@@ -45,6 +45,7 @@
 :root {
     --nitro-color: #7289DA;
     --nitro-bg-color: #7289DA29;
+    --old-green-transparent: #43b58133;
 }
 
 .toolbar-1t6TWx .search-36MZv- .search-2oPWTC:not(.open-6_Y_aH) .searchBar-3dMhjb .icon-3cZ1F_ {
@@ -64,6 +65,12 @@
 
 .premiumTabItem-1QTfBr.item-PXvHYJ.selected-3s45Ha.themed-OHr7kt:hover {
     background: var(--nitro-color) !important;
+}
+
+/* Fixed "Add Friend" button to correct colors when selected */
+.item-3HknzM.item-PXvHYJ.themed-OHr7kt[aria-selected="true"] {
+    color: var(--old-green) !important;
+    background-color: var(--old-green-transparent) !important;
 }
 
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
