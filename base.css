@@ -6,7 +6,7 @@
 @import url("https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css"); /* <-- USRGBG */
 @import url("https://kckarnige.github.io/custom-server-logos/base.css");
 @import url("https://kckarnige.github.io/femboi_owo/discord-font.css");
-@import url("https://raw.githack.com/Goose-Nest/GT-RevertRebrand/main/RevertRebrand.theme.css");
+@import url("https://kckarnige.github.io/GT-RevertRebrand/src/main.css");
 
 :root { /* Client Colors */
     --standard-blurple: #7289dafe;
