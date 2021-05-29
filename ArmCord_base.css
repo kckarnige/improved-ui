@@ -1,9 +1,5 @@
 @import url("https://kckarnige.github.io/improved-ui/base.css");
 
-:root {
-  --titlebar-color: var(--background-secondary-alt) !important;
-}
-
 .window-title:after, .window-title:before {
     font-size: 14px !important;
 }
