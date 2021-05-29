@@ -212,6 +212,15 @@ svg.mask-1qbNWk > rect[fill="rgba(250, 166, 26, 1)"] {
     fill: #faa61a !important;
 }
 
+/* Bring popout closer to avatar :p */
+#app-mount .container-3baos1 .nameTag-3uD-yy {
+    left: 162px !important;
+}
+
+#app-mount .container-3baos1 .flex-1xMQg5 {
+    left: calc(85% + 4px) !important;
+}
+
 /* ======= For Desktop Users ======= */
 
 /* ===== Discord Wordmark ===== */
