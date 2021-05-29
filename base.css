@@ -200,6 +200,18 @@
     transition: 0s;
 }
 
+svg.mask-1qbNWk > rect[fill="rgba(59, 165, 92, 1)"] {
+    fill: var(--old-green) !important;
+}
+
+svg.mask-1qbNWk > rect[fill="rgba(237, 66, 69, 1)"] {
+    fill: var(--old-red) !important;
+}
+
+svg.mask-1qbNWk > rect[fill="rgba(250, 166, 26, 1)"] {
+    fill: #faa61a !important;
+}
+
 /* ======= For Desktop Users ======= */
 
 /* ===== Discord Wordmark ===== */
