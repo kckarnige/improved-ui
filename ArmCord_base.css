@@ -11,3 +11,7 @@
 .window-title {
     transform: translate(10px, 3px) !important;
 }
+
+.platform-web .container-3baos1 {
+    top: 30px !important;
+}
