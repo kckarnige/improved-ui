@@ -8,7 +8,7 @@
 @import url("https://kckarnige.github.io/femboi_owo/discord-font.css");
 @import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/main.css");
 
-:root { /* Client Colors */
+:root { /* Preset Colors */
     --standard-blurple: #7289dafe;
     --canary-gold: #efb65ffe;
     --greyple: #99aab5fe;
@@ -17,7 +17,7 @@
     --ping-color: #f04747fe;
 }
 
-:root { /* Status CSS */
+:root { /* Radial Status CSS */
     --rs-small-spacing: 2px;  /* spacing between avatar and status */
     --rs-large-spacing: 3px;  /* spacing between avatar and status for user popouts & modals/profiles | MUST end in px */
     --rs-width: 2px;  /* Width/thickness of status border */
@@ -29,6 +29,30 @@
     --rs-streaming-color: #643da7;  /* color for streaming status */
     --rs-invisible-color: #747f8d;  /* color for invisible status - Note this will only show for your own invisibility */
     --container-color: var(--background-floating);
+}
+
+:root { /* Channel Indicator CSS */
+    /* ---- base -- */
+    --indicator-hovered: rgba(79, 84, 92, 0.25);
+    --indicator-rounding: 0;
+    --indicator-border-info: 2px solid;
+
+    /* ---- selected -- */
+    --indicator-selected: 112, 135, 215;
+    --indicator-selected-border: rgba(var(--indicator-selected));
+    --indicator-selected-background: rgba(var(--indicator-selected), 0.1);
+    --indicator-selected-hover: rgba(var(--indicator-selected), 0.18);
+
+    /* ---- unreads -- */
+    --indicator-unread: 255, 255, 255;
+    --indicator-unread-border: rgba(var(--indicator-unread), 0.6);
+    --indicator-unread-background: rgba(var(--indicator-unread), 0.01);
+    
+    /* ---- connected -- */
+    --indicator-connected: 67, 181, 129;
+    --indicator-connected-border: rgba(var(--indicator-connected));
+    --indicator-connected-background: rgba(var(--indicator-connected), 0.1);
+    --indicator-connected-hover: rgba(var(--indicator-connected), 0.18);
 }
 
 :root {
