@@ -30,17 +30,6 @@
     --rs-invisible-color: #747f8d;  /* color for invisible status - Note this will only show for your own invisibility */
     --container-color: var(--background-floating);
 }
-  
-  :root { /* Channel Indicator CSS */
-      --unread-badge: rgba(255, 255, 255, 0.6);
-      --unread-bg: rgba(255, 255, 255, 0.01);
-      --selected-badge: rgb(112, 135, 215);
-      --selected-bg: rgba(112, 135, 215, 0.1);
-      --selected-bg-hover: rgba(112, 135, 215, 0.18);
-      --hovered-bg: rgba(79, 84, 92, 0.25);
-      --bg-rounding: 0 5px 5px 0;
-      --border-info: 2px solid;
-}
 
 :root {
     --nitro-color: #7289DA;
