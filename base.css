@@ -250,6 +250,29 @@ svg.mask-1qbNWk > rect[fill="rgba(250, 166, 26, 1)"] {
     line-height: 20px;
 }
 
+/* ===== Native Windows Titlebar (From #css-snippets in the Powercord Server) ===== */
+
+.platform-win .titleBar-AC4pGV {
+    height: 31px;
+    margin-top: 0;
+}
+.platform-win .titleBar-AC4pGV .wordmark-2iDDfm {
+    top: 3px;
+}
+.platform-win .titleBar-AC4pGV .winButton-iRh8-Z {
+    transition: 150ms ease;
+    height: 30px;
+    width: 45px;
+    top: 0;
+}
+.platform-win .titleBar-AC4pGV .winButtonClose-1HsbF-:hover {
+    background-color: #e81123;
+}
+.platform-win .titleBar-AC4pGV .winButtonClose-1HsbF-:active {
+    background-color: #f1707a;
+    color: #000000cc;
+}
+
 /* ===== AccountSwitcher Password Input Box ===== */
 
 .content-1LAB8Z.content-mK72R6.thin-1ybCId.scrollerBase-289Jih > input[type="password"] {
