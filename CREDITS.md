@@ -2,7 +2,7 @@
 
 [Gibbu](https://www.gibbu.me) - [Radial Discord Status](https://github.com/DiscordStyles/RadialStatus)
 
-[Tomrdh](https://github.com/Tomrdh) - [No Nitro Tab](https://github.com/Tomrdh/discord-addons/blob/master/download-themes-here)
+[Tomrdh](https://github.com/Tomrdh) - [No Nitro Tab](https://github.com/Tomrdh/discord-addons/tree/master/download-themes-here/RemoveNitroTab)
 
 [CanadaHonk](https://github.com/CanadaHonk) - [Revert Discord 2021 Branding](https://github.com/Goose-Nest/GT-RevertRebrand)
 
