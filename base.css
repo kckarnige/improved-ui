@@ -269,41 +269,17 @@ svg.mask-1qbNWk > rect[fill="rgba(250, 166, 26, 1)"] {
     left: calc(85% + 4px) !important;
 }
 
-a[href] {
-    --text-link: #8ea1e1;
-    text-decoration: none;
-    -o-transition:.1s;
-    -ms-transition:.1s;
-    -moz-transition:.1s;
-    -webkit-transition:.1s;
-    transition:.1s;
-  }
-  
-  a[href]:hover {
-    --text-link: #b5c1ec;
-    text-decoration: none;
-    -o-transition:.1s;
-    -ms-transition:.1s;
-    -moz-transition:.1s;
-    -webkit-transition:.1s;
-    transition:.1s;
-  }
-  
-  a[href^="http://"] {
-    color: #ff1111;
-  }
-  
-  a[href^="http://"]:hover {
-    color: #ff5555;
-  }
-  
-  a[href^="http://"]:after {
-    content: " [May be insecure, proceed at your own risk]";
-  }
-  
-  a.embedLink-1G1K1D.embedTitle-3OXDkz[href^="http://"]:after {
-      content: " [INSECURE]";
-  }
+a[href^="http://"] {
+  color: #ff1111;
+}
+
+a[href^="http://"]:after {
+  content: " [May be insecure, proceed at your own risk]";
+}
+
+a.embedLink-1G1K1D.embedTitle-3OXDkz[href^="http://"]:after {
+    content: " [INSECURE]";
+}
 
 /* ======= For Desktop Users ======= */
 
