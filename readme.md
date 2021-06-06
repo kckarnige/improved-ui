@@ -6,7 +6,7 @@
 
 **CUSTOM SERVER LOGOS ARE NOW INCLUDED!**
 
-**CSL is only compatible with Powercord natively, [go to releases for a ArmCord and browser compatiblity plugin](https://github.com/kckarnige/custom-server-logos/releases)**
+**CSL is only compatible with Powercord natively, [(go to the readme for compatibility plugins)](https://github.com/kckarnige/custom-server-logos/#readme)**
 
 ### Preset Colors
 
