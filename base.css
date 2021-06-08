@@ -60,6 +60,15 @@
     --old-green-transparent: #43b58133;
 }
 
+.platform-win .container-3baos1 {
+    top: 30px !important;
+    margin-top: 10px !important;
+}
+
+.platform-win .guilds-1SWlCJ {
+    margin-top: 72px !important;
+}
+
 .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyBetween-2tTqYu.alignCenter-1dQNNs.noWrap-3jynv6 > svg.icon-Zc-uZZ, .premiumTabItem-1QTfBr.item-PXvHYJ.themed-OHr7kt {
     color: var(--nitro-color);
 }
