@@ -338,6 +338,25 @@ a.embedLink-1G1K1D.embedTitle-3OXDkz[href^="http://"]:after {
     color: #000000cc;
 }
 
+/* My restore window icon (Thank you @aaronlink127#0127 and @Nao Tomori#1166 for helping out with CSS masks :D) */
+
+.platform-win .maximized [aria-label="Maximize"] {
+    background-repeat: no-repeat;
+    background-position: center;
+    color: transparent;
+}
+
+.platform-win .maximized [aria-label="Maximize"]:before {
+    content: " ";
+    -webkit-mask: url('https://kckarnige.github.io/improved-ui/res/restore.svg');
+    background-repeat: no-repeat;
+    position: fixed;
+    color: var(--interactive-normal);
+    background-color: currentColor;
+    height: 12px;
+    width: 12px;
+}
+
 /* ===== AccountSwitcher Password Input Box ===== */
 
 .content-1LAB8Z.content-mK72R6.thin-1ybCId.scrollerBase-289Jih > input[type="password"] {
