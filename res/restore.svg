@@ -2,7 +2,7 @@
 	<title>restore-k-30</title>
 	<style>
 		tspan { white-space:pre }
-		.shp0 { fill: #171717 } 
+		.shp0 { fill: var(--interactive-normal) } 
 	</style>
 	<path id="Path 0" fill-rule="evenodd" class="shp0" d="M0 60L60 60L60 0L300 0L300 240L240 240L240 300L0 300L0 60ZM240 60L240 210L270 210L270 30L90 30L90 60L240 60ZM30 270L210 270L210 90L30 90L30 270Z" />
 </svg>
