@@ -357,7 +357,7 @@ a.embedLink-1G1K1D.embedTitle-3OXDkz[href^="http://"]:after {
 
 .platform-win .maximized [aria-label="Maximize"]:before {
     content: " ";
-    -webkit-mask: url('https://kckarnige.github.io/improved-ui/res/restore.svg');
+    -webkit-mask: url('https://kckarnige.is-a.dev/improved-ui/res/restore.svg');
     background-repeat: no-repeat;
     position: fixed;
     color: var(--interactive-normal);
