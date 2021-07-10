@@ -6,7 +6,7 @@
 @homepageURL  https://github.com/kckarnige/improved-ui
 @version      2.2.8
 ==/UserStyle== */
-@-moz-document domain("discord.com") {
+@-moz-document domain("discord.com"), domain("dev.fosscord.com") {
  
 @import url('https://kckarnige.is-a.dev/improved-ui/base.css');
   
