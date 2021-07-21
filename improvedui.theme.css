@@ -1,7 +1,7 @@
 /**
 
  * @name Improved Discord UI
- * @version 2.2.8
+ * @version 2.2.9
  * @description A simple UI improvement
  * @author KayoticCarnige
  * @source https://github.com/kckarnige/improved-ui
@@ -23,4 +23,5 @@
     --tooltip-text-color: #fff;
     --nitro-color: #7289DA;
     --nitro-bg-color: #7289DA29;
+    --default-folder-color: #7289DA;
 }

@@ -5,6 +5,7 @@
 @import url('https://discord-theme-addons.github.io/refined-user-connections/src/support/compiled.css');
 @import url("https://kckarnige.is-a.dev/custom-server-logos/base.css");
 @import url("https://kckarnige.is-a.dev/femboi_owo/discord-font.css");
+@import url('https://kckarnige.is-a.dev/server-scroll/base.css');
 @import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/main.css");
 
 :root { /* Preset Colors */
@@ -14,6 +15,7 @@
     --bingus-red: #be3c41fe;
     --bandaged-blue: #3e82e5fe;
     --ping-color: #f04747fe;
+    --default-folder-color: #7289da;
 }
 
 :root { /* Radial Status CSS */
@@ -67,6 +69,17 @@
     --nitro-color: #7289DA;
     --nitro-bg-color: #7289DA29;
     --old-green-transparent: #43b58133;
+}
+.expandedFolderIconWrapper-Huv7rA > svg[style="color: rgb(88, 101, 242);"] {
+    color: var(--default-folder-color) !important;
+}
+  
+.folderIconWrapper-1_bOZe[style="background-color: rgba(88, 101, 242, 0.4);"] {
+    background-color: var(--default-folder-color) !important;
+}
+
+.colorPickerSwatch-5GX3Ve.default-cS_caM {
+    background-color: var(--default-folder-color) !important;
 }
 
 .platform-win .container-3baos1 {
@@ -138,6 +151,22 @@
     color: var(--brand-experiment);
 }
 
+/* Shrink server banners to header instead of disappearing. */
+[class*="animatedContainer-"] {
+    opacity: 1 !important;
+    transition: opacity .5s;
+}
+[class*="animatedContainer-"] > [class*="bannerImage-"] {
+    transition: margin .5s;
+}
+:not([class*="bannerVisible-"]) > [class*="animatedContainer-"] {
+    opacity: .35 !important;
+    height: 138px;
+}
+:not([class*="bannerVisible-"]) > [class*="animatedContainer-"] > [class*="bannerImage-"] {
+    margin-top: -12px;
+}
+
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
 .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
     background-color: var(--main-color);
@@ -151,29 +180,24 @@
     
 .activeLink-22b0_I {
     background-color: var(--main-color) !important;
-    border-radius: 25px;
     color: #fff;
     transition:.3s;
 }
     
 .navLinkMedium-4MZo72 {
-    border-radius: 25px;
     transition:.2s;
 }
     
 .navLinkMedium-4MZo72:hover {
-    border-radius: 25px;
     background-color: #23272a
 }
     
 .filledBrand-pyfKOu {
     background: var(--main-color);
-    border-radius: 25px;
 }
     
 .filledBrand-pyfKOu:hover {
     background: var(--main-color);
-    border-radius: 25px;
     filter: brightness(75%);
     transition:.2s;
 }

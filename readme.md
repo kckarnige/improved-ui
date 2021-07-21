@@ -1,6 +1,6 @@
-<a href="https://github.com/kckarnige/improved-ui">
+<h1 align="center" href="https://github.com/kckarnige/improved-ui">
 <img src="https://raw.githubusercontent.com/kckarnige/improved-ui/master/banner.png" height="75%" width="75%">
-</a><br>
+</h1><br>
 
 *I made this, first out of boredom, but now I genuinely want to make a good theme :D*
 

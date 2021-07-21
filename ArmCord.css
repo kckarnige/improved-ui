@@ -8,4 +8,7 @@
     --tooltip-color: var(--main-color);
     --tooltip-text-color: #fff;
     --armcord-color: var(--main-color);
+    --nitro-color: #7289DA;
+    --nitro-bg-color: #7289DA29;
+    --default-folder-color: #7289DA;
 }

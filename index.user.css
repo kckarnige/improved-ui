@@ -4,7 +4,7 @@
 @author       KayoticCarnige
 @namespace    https://github.com/kckarnige/improved-ui
 @homepageURL  https://github.com/kckarnige/improved-ui
-@version      2.2.8
+@version      2.2.9
 ==/UserStyle== */
 @-moz-document domain("discord.com"), domain("dev.fosscord.com") {
  
@@ -18,5 +18,8 @@
     --selector-color: var(--main-color);
     --tooltip-color: var(--main-color);
     --tooltip-text-color: #fff;
+    --nitro-color: #7289DA;
+    --nitro-bg-color: #7289DA29;
+    --default-folder-color: #7289DA;
 }
 }
