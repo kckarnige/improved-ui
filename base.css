@@ -70,6 +70,10 @@
     --nitro-bg-color: #7289DA29;
     --old-green-transparent: #43b58133;
 }
+
+.activeNavItemPrimary-CRWnj6 {
+    background-color: var(--main-color);
+}
 .expandedFolderIconWrapper-Huv7rA > svg[style="color: rgb(88, 101, 242);"] {
     color: var(--default-folder-color) !important;
 }
