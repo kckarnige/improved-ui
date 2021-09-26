@@ -323,11 +323,15 @@ a[href^="http://"] {
 }
 
 a[href^="http://"]:after {
-  content: " [May be insecure, proceed at your own risk]";
+  content: " [INSECURE]";
 }
 
 a.embedLink-1G1K1D.embedTitle-3OXDkz[href^="http://"]:after {
     content: " [INSECURE]";
+}
+
+.childWrapper-anI2G9, .wrapper-1BJsBx {
+    background-color: var(--background-secondary);
 }
 
 /* ======= For Desktop Users ======= */
