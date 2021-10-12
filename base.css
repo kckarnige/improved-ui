@@ -326,8 +326,18 @@ a[href^="http://"]:after {
   content: " [INSECURE]";
 }
 
-a.embedLink-1G1K1D.embedTitle-3OXDkz[href^="http://"]:after {
-    content: " [INSECURE]";
+[aria-label*="download"] .icon-1DeIlz {
+    color: transparent !important;
+}
+[aria-label*="download"] .iconContainer-1BBaeJ:before {
+    content: " ";
+    -webkit-mask: url("https://kckarnige.is-a.dev/improved-ui/res/download-chan-icon.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    color: var(--text-muted);
+    background-color: currentColor;
+    height: 24px;
+    width: 24px;
 }
 
 .childWrapper-anI2G9, .wrapper-1BJsBx {
