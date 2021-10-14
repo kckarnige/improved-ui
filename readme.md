@@ -8,6 +8,8 @@
 
 **CSL is only compatible with Powercord natively, [(go to the readme for plugin versions)](https://github.com/kckarnige/custom-server-logos/#readme)**
 
+<h1></h1>
+
 ### Preset Colors
 
 Standard Blurple: #7289DA
@@ -20,6 +22,9 @@ Bandaged Blue: #3E82E5
 
 Greyple: #99AAB5
 
+*[The rebrand sucks ass smh](https://discord.com/branding)*, [here's the pre-rebrand colors](https://colorswall.com/palette/181/)
+
+<h1></h1>
 
 [<img src="https://kckarnige.github.io/res/stylus_icon.svg" height="14px" width="14px"> Stylus Theme Install](https://raw.githubusercontent.com/kckarnige/improved-ui/master/index.user.css)
 
@@ -31,4 +36,3 @@ Greyple: #99AAB5
 
 [Credit to these amazing people!](https://github.com/kckarnige/improved-dc-ui/blob/master/CREDITS.md)
 
-*[The rebrand sucks ass smh](https://discord.com/branding)*, [here's the pre-rebrand colors](https://colorswall.com/palette/181/)
