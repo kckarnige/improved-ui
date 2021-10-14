@@ -6,6 +6,7 @@
 @import url("https://kckarnige.is-a.dev/custom-server-logos/base.css");
 @import url("https://kckarnige.is-a.dev/femboi_owo/discord-font.css");
 @import url('https://kckarnige.is-a.dev/server-scroll/base.css');
+@import url('https://kckarnige.github.io/transparent-menus/base.css');
 @import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/main.css");
 
 :root { /* Preset Colors */
@@ -66,9 +67,47 @@
 }
 
 :root {
-    --nitro-color: #7289DA;
-    --nitro-bg-color: #7289DA29;
     --old-green-transparent: #43b58133;
+}
+
+.side-8zPYf6 .item-PXvHYJ {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-bottom: 2px;
+    border-radius: var(--indicator-rounding);
+}
+	
+.side-8zPYf6 .item-PXvHYJ:hover:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    border-left: var(--indicator-border-info) var(--indicator-unread-border);
+}
+	
+.side-8zPYf6 .item-PXvHYJ.selected-3s45Ha:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    border-left: var(--indicator-border-info) var(--indicator-selected-border) !important;
+}
+
+.side-8zPYf6 .item-PXvHYJ.selected-3s45Ha {
+	background: var(--indicator-selected-background) !important;
+}
+.premiumTabItem-1QTfBr.item-PXvHYJ.selected-3s45Ha.themed-OHr7kt {
+    background: #7289DA29 !important;
+}
+.side-8zPYf6 .premiumTabItem-1QTfBr.item-PXvHYJ.themed-OHr7kt:hover:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    border-left: var(--indicator-border-info) var(--indicator-selected-border) !important;
 }
 
 .activeNavItemPrimary-CRWnj6 {
