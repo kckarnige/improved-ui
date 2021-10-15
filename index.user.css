@@ -4,22 +4,20 @@
 @author       KayoticCarnige
 @namespace    https://github.com/kckarnige/improved-ui
 @homepageURL  https://github.com/kckarnige/improved-ui
-@version      2.2.9
+@version      2.3.0
 ==/UserStyle== */
 @-moz-document domain("discord.com"), domain("dev.fosscord.com") {
  
 @import url('https://kckarnige.is-a.dev/improved-ui/base.css');
   
-/* Preset Colors: standard-blurple (Default) / canary-gold / greyple / bingus-red / bandaged-blue */
+/* Preset Colors: classic-blurple (Default) / blurple (Rebrand Version) / canary-gold / greyple / bingus-red / bandaged-blue */
 /* Example: --main-color: var(--custom-color); or --main-color: #7289dafe; (YOU MUST ADD 'FE' AT THE END OF YOUR HEX CODE) */
 :root { 
-    --main-color: var(--standard-blurple); 
-    --ping-color: #f04747;
+    --main-color: var(--classic-blurple); 
+    --ping-color: #f04747fe;
     --selector-color: var(--main-color);
     --tooltip-color: var(--main-color);
     --tooltip-text-color: #fff;
-    --nitro-color: #7289DA;
-    --nitro-bg-color: #7289DA29;
     --default-folder-color: #7289DA;
 }
 }
