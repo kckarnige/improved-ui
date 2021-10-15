@@ -10,7 +10,8 @@
 @import url("https://Goose-Nest.github.io/GT-RevertRebrand/src/main.css");
 
 :root { /* Preset Colors */
-    --standard-blurple: #7289dafe;
+    --classic-blurple: #7289dafe;
+    --blurple: #5865f2fe;
     --canary-gold: #efb65ffe;
     --greyple: #99aab5fe;
     --bingus-red: #be3c41fe;
