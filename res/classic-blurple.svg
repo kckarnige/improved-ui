@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3070 720" width="68" height="16">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #7289da; } 
+		.txt1 { font-size: 191px;fill: #ffffff;font-weight: 500;font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji" } 
+	</style>
+	<path id="background" class="shp0" d="M0 0L3070 0L3070 720L0 720L0 0Z" />
+	<text id="color-code" style="transform: matrix(3.768,0,0,3.768,20.391,107.522)" >
+		<tspan x="0" y="131.84" class="txt1">#</tspan><tspan  y="131.84" class="txt1">7289DA
+</tspan>
+	</text>
+</svg>
