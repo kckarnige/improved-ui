@@ -4,8 +4,8 @@
 		.shp0 { fill: #7289da; } 
 		.txt1 { font-size: 191px;fill: #ffffff;font-weight: 500;font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji" } 
 	</style>
-	<path id="background" class="shp0" d="M0 0L3070 0L3070 720L0 720L0 0Z" />
-	<text id="color-code" style="transform: matrix(3.768,0,0,3.768,20.391,107.522)" >
+	<path id="background" class="shp0" d="M153 72L2916 72L2916 720L153 720L153 72Z" />
+	<text id="color-code" style="transform: matrix(3.391,0,0,3.391,171.352,168.77)" >
 		<tspan x="0" y="131.84" class="txt1">#</tspan><tspan  y="131.84" class="txt1">7289DA
 </tspan>
 	</text>
