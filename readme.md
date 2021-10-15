@@ -12,17 +12,17 @@
 
 ### Preset Colors
 
-Classic Blurple: <img src="https://kckarnige.is-a.dev/improved-ui/res/colors/classic-blurple.svg" height="14px">
+Classic Blurple: <img src="https://kckarnige.is-a.dev/improved-ui/res/colors/classic-blurple.svg" height="14px"> ```--classic-blurple```
 
-Blurple: <img src="https://kckarnige.is-a.dev/improved-ui/res/colors/blurple.svg" height="14px">
+Blurple: <img src="https://kckarnige.is-a.dev/improved-ui/res/colors/blurple.svg" height="14px"> ```--blurple```
 
-Canary Gold: <img src="https://kckarnige.is-a.dev/improved-ui/res/colors/canary-gold.svg" height="14px">
+Canary Gold: <img src="https://kckarnige.is-a.dev/improved-ui/res/colors/canary-gold.svg" height="14px"> ```--canary-gold```
 
-Bingus Red: <img src="https://kckarnige.is-a.dev/improved-ui/res/colors/bingus-red.svg" height="14px">
+Bingus Red: <img src="https://kckarnige.is-a.dev/improved-ui/res/colors/bingus-red.svg" height="14px"> ```--bingus-red```
 
-Bandaged Blue: <img src="https://kckarnige.is-a.dev/improved-ui/res/colors/bandaged-blue.svg" height="14px">
+Bandaged Blue: <img src="https://kckarnige.is-a.dev/improved-ui/res/colors/bandaged-blue.svg" height="14px"> ```--bandaged-blue```
 
-Greyple: <img src="https://kckarnige.is-a.dev/improved-ui/res/colors/greyple.svg" height="14px">
+Greyple: <img src="https://kckarnige.is-a.dev/improved-ui/res/colors/greyple.svg" height="14px"> ```--greyple```
 
 [Rebrand Colors](https://discord.com/branding) | [Classic Colors](https://colorswall.com/palette/181/)
 
