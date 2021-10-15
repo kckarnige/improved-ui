@@ -14,17 +14,19 @@
 
 ### Preset Colors
 
-Standard Blurple: #7289DA
+Classic Blurple: <img src="https://kckarnige.is-a.dev/improved-ui/res/colors/classic-blurple.svg" height="14px">
 
-Canary Gold: #EFB65F
+Blurple: <img src="https://kckarnige.is-a.dev/improved-ui/res/colors/blurple.svg" height="14px">
 
-Bingus Red: #BE3C41
+Canary Gold: <img src="https://kckarnige.is-a.dev/improved-ui/res/colors/canary-gold.svg" height="14px">
 
-Bandaged Blue: #3E82E5
+Bingus Red: <img src="https://kckarnige.is-a.dev/improved-ui/res/colors/bingus-red.svg" height="14px">
 
-Greyple: #99AAB5
+Bandaged Blue: <img src="https://kckarnige.is-a.dev/improved-ui/res/colors/bandaged-blue.svg" height="14px">
 
-*[The rebrand sucks ass smh](https://discord.com/branding)*, [here's the pre-rebrand colors](https://colorswall.com/palette/181/)
+Greyple: <img src="https://kckarnige.is-a.dev/improved-ui/res/colors/greyple.svg" height="14px">
+
+[Rebrand Colors](https://discord.com/branding) | [Classic Colors](https://colorswall.com/palette/181/)
 
 <h1></h1>
 
