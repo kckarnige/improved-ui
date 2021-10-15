@@ -1,7 +1,7 @@
 /**
 
  * @name Improved Discord UI
- * @version 2.2.9
+ * @version 2.3.0
  * @description A simple UI improvement
  * @author KayoticCarnige
  * @source https://github.com/kckarnige/improved-ui
@@ -11,17 +11,15 @@
 
 @import url('https://kckarnige.is-a.dev/improved-ui/base.css');
   
-/* Preset Colors: standard-blurple (Default) / canary-gold / greyple / bingus-red / bandaged-blue */
+/* Preset Colors: classic-blurple (Default) / blurple (Rebrand Version) / canary-gold / greyple / bingus-red / bandaged-blue */
 /* Example: --main-color: var(--custom-color); or --main-color: #7289dafe; (YOU MUST ADD 'FE' AT THE END OF YOUR HEX CODE) */
 :root { 
-    --main-color: var(--standard-blurple); 
+    --main-color: var(--classic-blurple); 
     --ping-color: #f04747fe;
     --selector-color: var(--main-color);
     --wordmark-text-color: #72767d;
     --wordmark-text: "Discord"; /* This should only be text (Example: Lightcord, Binguscord, BetterDiscord, Discord 2, I think you get it) */
     --tooltip-color: var(--main-color);
     --tooltip-text-color: #fff;
-    --nitro-color: #7289DA;
-    --nitro-bg-color: #7289DA29;
     --default-folder-color: #7289DA;
 }
