@@ -1,7 +1,7 @@
-/* Preset Colors: standard-blurple (Default) / canary-gold / greyple / bingus-red / bandaged-blue */
+/* Preset Colors: classic-blurple (Default) / blurple (Rebrand Version) / canary-gold / greyple / bingus-red / bandaged-blue */
 /* Example: --main-color: var(--custom-color); or --main-color: #7289dafe; (YOU MUST ADD 'FE' AT THE END OF YOUR HEX CODE) */
 :root { 
-    --main-color: var(--standard-blurple); 
+    --main-color: var(--classic-blurple); 
     --ping-color: #f04747fe;
     --selector-color: var(--main-color);
     --wordmark-text-color: #72767d;
