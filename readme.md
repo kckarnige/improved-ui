@@ -34,5 +34,5 @@ Greyple: <img src="https://kckarnige.is-a.dev/improved-ui/res/colors/greyple.svg
 
 <img src="https://kckarnige.github.io/res/powercord.svg" height="14px" width="14px"> Powercord Theme Install ```git clone https://github.com/kckarnige/improved-ui```
 
-<img src="https://user-images.githubusercontent.com/32397453/122653316-cda93600-d111-11eb-90d3-bf40dc7b4c86.png" height="14px" width="14px"> [ArmCord Guide](https://github.com/kckarnige/improved-ui/blob/master/armcord_guide.md) (Will be replaced with a download soon)
+<img src="https://user-images.githubusercontent.com/32397453/122653316-cda93600-d111-11eb-90d3-bf40dc7b4c86.png" height="14px" width="14px"> ArmCord Theme Install ```git clone https://github.com/kckarnige/improved-ui```
 
