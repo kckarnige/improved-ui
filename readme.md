@@ -4,9 +4,7 @@
 
 *I made this, first out of boredom, but now I genuinely want to make a good theme :D*
 
-**CUSTOM SERVER LOGOS ARE NOW INCLUDED!**
-
-**CSL is only compatible with Powercord natively, [(go to the readme for plugin versions)](https://github.com/kckarnige/custom-server-logos/#readme)**
+**Custom Server Logos is only compatible with Powercord natively, [go to the readme for plugin versions](https://github.com/kckarnige/custom-server-logos/#readme)**
 
 [Credit to these amazing people!](https://github.com/kckarnige/improved-dc-ui/blob/master/CREDITS.md)
 
