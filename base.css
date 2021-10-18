@@ -99,8 +99,13 @@
 .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha {
 	background: var(--indicator-selected-background) !important;
 }
+
 .premiumTabItem-1QTfBr.item-PXvHYJ.selected-3s45Ha.themed-OHr7kt {
     background: #7289DA29 !important;
+}
+
+.premiumTabItem-1QTfBr {
+    color: var(--brand-experiment) !important;
 }
 .side-8zPYf6 .premiumTabItem-1QTfBr.item-PXvHYJ.themed-OHr7kt:hover:before {
     content: "";
