@@ -1,7 +1,7 @@
 /**
 
  * @name Improved Discord UI
- * @version 2.3.0
+ * @version 2.3.1
  * @description A simple, slightly customizable theme for Discord
  * @author KayoticCarnige
  * @source https://github.com/kckarnige/improved-ui
@@ -22,4 +22,5 @@
     --tooltip-color: var(--main-color);
     --tooltip-text-color: #fff;
     --default-folder-color: #7289DA;
+    --home-icon: var(--classic-clyde); /* '--rebrand-clyde' or '--classic-clyde' */
 }
