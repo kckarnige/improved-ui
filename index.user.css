@@ -19,6 +19,6 @@
     --tooltip-color: var(--main-color);
     --tooltip-text-color: #fff;
     --default-folder-color: #7289DA;
-    --home-icon: var(--classic-clyde) !important; /* DO NOT REMOVE '!important'! | '--rebrand-clyde' or '--classic-clyde' */
+    --home-icon: var(--classic-clyde); /* '--rebrand-clyde' or '--classic-clyde' */
 }
 }

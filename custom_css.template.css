@@ -8,5 +8,5 @@
     --wordmark-text: "Discord"; /* This should only be text (Example: Lightcord, Binguscord, BetterDiscord, Discord 2, I think you get it) */
     --tooltip-color: var(--main-color);
     --tooltip-text-color: #fff;
-    --home-icon: var(--classic-clyde) !important; /* DO NOT REMOVE '!important'! | '--rebrand-clyde' or '--classic-clyde' */
+    --home-icon: var(--classic-clyde) !important; /* '--rebrand-clyde' or '--classic-clyde' */
 }
