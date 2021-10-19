@@ -71,6 +71,10 @@
     --old-green-transparent: #43b58133;
 }
 
+.homeIcon-FuNwkv > path {
+    d: var(--home-icon) !important;
+}
+
 .side-8zPYf6 .item-PXvHYJ {
     padding-top: 6px;
     padding-bottom: 6px;
