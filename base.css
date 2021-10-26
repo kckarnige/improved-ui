@@ -349,7 +349,7 @@ a[href^="http://"]:after {
   content: " [INSECURE]";
 }
 
-[aria-label*="download"] .icon-1DeIlz, [aria-label*="verify"] .icon-1DeIlz {
+[aria-label*="download"] .icon-1DeIlz, [aria-label*="verify"] .icon-1DeIlz, [aria-label*="verification"] .icon-1DeIlz {
     color: transparent !important;
 }
 [aria-label*="download"] .iconContainer-1BBaeJ:before {
@@ -372,7 +372,7 @@ a[href^="http://"]:after {
     height: 24px;
     width: 24px;
 }
-[aria-label*="verify"] .iconContainer-1BBaeJ:before {
+[aria-label*="verify"] .iconContainer-1BBaeJ:before, [aria-label*="verification"] .iconContainer-1BBaeJ:before {
     content: " ";
     -webkit-mask: url("https://kckarnige.is-a.dev/improved-ui/res/verify-chan-icon.svg") !important;
     background-repeat: no-repeat;
