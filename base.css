@@ -349,7 +349,7 @@ a[href^="http://"]:after {
   content: " [INSECURE]";
 }
 
-[aria-label*="download"] .icon-1DeIlz, [aria-label*="verify"] .icon-1DeIlz, [aria-label*="verification"] .icon-1DeIlz {
+[aria-label*="download"] .icon-1DeIlz, [aria-label*="verify"] .icon-1DeIlz, [aria-label*="verification"] .icon-1DeIlz, [aria-label*="guide"] .icon-1DeIlz, [aria-label*="tutorial"] .icon-1DeIlz {
     color: transparent !important;
 }
 [aria-label*="download"] .iconContainer-1BBaeJ:before {
@@ -375,6 +375,27 @@ a[href^="http://"]:after {
 [aria-label*="verify"] .iconContainer-1BBaeJ:before, [aria-label*="verification"] .iconContainer-1BBaeJ:before {
     content: " ";
     -webkit-mask: url("https://kckarnige.is-a.dev/improved-ui/res/verify-chan-icon.svg") !important;
+    background-repeat: no-repeat;
+    position: absolute;
+    color: var(--text-muted);
+    background-color: currentColor;
+    height: 24px;
+    width: 24px;
+}
+
+[aria-label*="guide"] .iconContainer-1BBaeJ:before, [aria-label*="tutorial"] .iconContainer-1BBaeJ:before {
+    content: " ";
+    -webkit-mask: url("https://kckarnige.is-a.dev/improved-ui/res/guide-chan-icon.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    color: var(--text-muted);
+    background-color: currentColor;
+    height: 24px;
+    width: 24px;
+}
+[aria-label*="guide"] .iconContainer-1BBaeJ[aria-label*="(Limited)"]:before, [aria-label*="tutorial"] .iconContainer-1BBaeJ[aria-label*="(Limited)"]:before {
+    content: " ";
+    -webkit-mask: url("https://kckarnige.is-a.dev/improved-ui/res/priv-guide-chan-icon.svg") !important;
     background-repeat: no-repeat;
     position: absolute;
     color: var(--text-muted);
@@ -466,3 +487,69 @@ a[href^="http://"]:after {
     --classic-clyde: path("M 20.6644 20 C 20.6644 20 19.8014 18.9762 19.0822 18.0714 C 22.2226 17.1905 23.4212 15.2381 23.4212 15.2381 C 22.4384 15.881 21.5034 16.3334 20.6644 16.6429 C 19.4658 17.1429 18.3151 17.4762 17.1884 17.6667 C 14.887 18.0953 12.7774 17.9762 10.9795 17.6429 C 9.61301 17.381 8.43836 17 7.45548 16.6191 C 6.90411 16.4048 6.30479 16.1429 5.70548 15.8096 C 5.63356 15.7619 5.56164 15.7381 5.48973 15.6905 C 5.44178 15.6667 5.41781 15.6429 5.39384 15.6191 C 4.96233 15.381 4.7226 15.2143 4.7226 15.2143 C 4.7226 15.2143 5.87329 17.1191 8.91781 18.0238 C 8.19863 18.9286 7.31164 20 7.31164 20 C 2.0137 19.8333 0 16.381 0 16.381 C 0 8.7144 3.45205 2.50017 3.45205 2.50017 C 6.90411 -0.07123 10.1884 0.000197861 10.1884 0.000197861 L 10.4281 0.285909 C 6.11301 1.52399 4.12329 3.40493 4.12329 3.40493 C 4.12329 3.40493 4.65068 3.11921 5.53767 2.71446 C 8.10274 1.59542 10.1404 1.2859 10.9795 1.21447 C 11.1233 1.19066 11.2432 1.16685 11.387 1.16685 C 12.8493 0.976379 14.5034 0.92876 16.2295 1.11923 C 18.5068 1.38114 20.9521 2.0478 23.4452 3.40493 C 23.4452 3.40493 21.5514 1.61923 17.476 0.381146 L 17.8116 0.000197861 C 17.8116 0.000197861 21.0959 -0.07123 24.5479 2.50017 C 24.5479 2.50017 28 8.7144 28 16.381 C 28 16.381 25.9623 19.8333 20.6644 20 Z M 9.51712 8.88106 C 8.15068 8.88106 7.07192 10.0715 7.07192 11.5239 C 7.07192 12.9763 8.17466 14.1667 9.51712 14.1667 C 10.8836 14.1667 11.9623 12.9763 11.9623 11.5239 C 11.9863 10.0715 10.8836 8.88106 9.51712 8.88106 Z M 18.2671 8.88106 C 16.9007 8.88106 15.8219 10.0715 15.8219 11.5239 C 15.8219 12.9763 16.9247 14.1667 18.2671 14.1667 C 19.6336 14.1667 20.7123 12.9763 20.7123 11.5239 C 20.7123 10.0715 19.6336 8.88106 18.2671 8.88106 Z");
     --rebrand-clyde: path("M 23.0212 1.67671 C 21.3107 0.879656 19.5079 0.318797 17.6584 0 C 17.4062 0.461742 17.1749 0.934541 16.9708 1.4184 C 15.003 1.12145 12.9974 1.12145 11.0283 1.4184 C 10.819 0.934541 10.589 0.461744 10.3368 0.00546311 C 8.48074 0.324393 6.67795 0.885118 4.96746 1.68231 C 1.56727 6.77853 0.649666 11.7538 1.11108 16.652 C 3.10102 18.1418 5.3262 19.2743 7.69177 20 C 8.22338 19.2743 8.69519 18.4993 9.09812 17.691 C 8.32996 17.3997 7.58522 17.0424 6.87684 16.6135 C 7.06531 16.4762 7.24726 16.3387 7.42403 16.1847 C 11.5911 18.1749 16.408 18.1749 20.5763 16.1847 C 20.7531 16.3332 20.9351 16.4762 21.1171 16.6135 C 20.41 17.0369 19.6639 17.3997 18.897 17.691 C 19.3052 18.4993 19.7718 19.2689 20.3021 19.9945 C 22.6677 19.2689 24.8929 18.1364 26.8828 16.6466 H 26.8893 C 27.43 10.9731 25.9665 6.04728 23.0212 1.67671 Z M 9.68041 13.6383 C 8.39754 13.6383 7.34085 12.4453 7.34085 10.994 C 7.34085 9.54272 8.37155 8.34973 9.68041 8.34973 C 10.9893 8.34973 12.0395 9.54272 12.0187 10.994 C 12.0187 12.4453 10.9828 13.6383 9.68041 13.6383 Z M 18.3161 13.6383 C 17.0332 13.6383 15.9765 12.4453 15.9765 10.994 C 15.9765 9.54272 17.0124 8.34973 18.3161 8.34973 C 19.6184 8.34973 20.6751 9.54272 20.6543 10.994 C 20.6543 12.4453 19.6184 13.6383 18.3161 13.6383 Z");
 }  
+
+
+/* === Extra Rebrand Revert CSS by me and some dude that made a pull request for the Goose Rebrand :) === */
+[style*="background-color: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);"] {
+	background: var(--brand-experiment) !important;
+}
+	
+/* Revert all other green elements to the old green, but with vars :) */
+:root {
+	--old-green-hover0: #369167;
+	--old-green-hover1: #3ca374;
+	--old-green-hover2: #66c69a;
+}
+
+/* Fixes some inputs that didn't have the green rebrand applied */
+.root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .header-4zuFdR .horizontal-1ae9ci .colorGreen-29iAKY, .root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .relationshipButtons-pUQVkf .actionButton-3vN-m0.colorGreen-29iAKY, [style*="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"], .circleIconButton-1XqULR.selected-2jcQaY {
+  background: var(--old-green) !important;
+}
+[fill="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"], .circleIconButton-1XqULR {
+  fill: var(--old-green) !important;
+  color: var(--old-green);
+}
+
+/* When those input are hovered */
+.root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .header-4zuFdR .horizontal-1ae9ci .colorGreen-29iAKY:hover, .root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .relationshipButtons-pUQVkf .actionButton-3vN-m0.colorGreen-29iAKY:hover {
+  background: var(--old-green-hover2) !important;
+}
+	
+/* When those input are clicked */
+.root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .header-4zuFdR .horizontal-1ae9ci .colorGreen-29iAKY:active, .root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .relationshipButtons-pUQVkf .actionButton-3vN-m0.colorGreen-29iAKY:active {
+  background: var(--old-green-hover1) !important;
+}
+
+/* I'm not entirely sure what these do, though they do seem to be for the same element */
+.root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .relationshipButtons-pUQVkf .actionButton-3vN-m0.colorGreen-29iAKY[disabled] {
+  border: solid 1px currentColor;
+  background: none;
+  color: var(--old-green);
+  opacity: 1;
+  cursor: default;
+}
+.root-3QyAh1.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .relationshipButtons-pUQVkf .actionButton-3vN-m0.colorGreen-29iAKY[disabled]:hover {
+  color: var(--old-green-hover0);
+}
+
+/* I'm assuming this fixs the outline for an element specifically doesn't have a hover or click reaction attached to it */
+.lookOutlined-3sRXeN.colorGreen-29iAKY:not(:hover):not(:active) {
+  border-color: var(--old-green)4d;
+}
+
+/* Everything under here is for any elements that are meant to be inputs / have the "colorGreen" class, including clicking (:active) and hovering (:hover) */	
+.lookOutlined-3sRXeN.colorGreen-29iAKY {
+  color: var(--old-green);
+}
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+  background-color: var(--old-green);
+}
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+  background-color: var(--old-green-hover1);
+}
+.lookFilled-1Gx00P.colorGreen-29iAKY:active {
+  background-color: var(--old-green-hover0);
+}
+.lookFilled-1Gx00P.colorGreen-29iAKY:disabled {
+  background-color: var(--old-green);
+}
