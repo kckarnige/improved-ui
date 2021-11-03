@@ -332,6 +332,31 @@ svg.mask-1qbNWk > rect[fill="rgba(250, 166, 26, 1)"] {
     fill: #faa61a !important;
 }
 
+#bd-pub-button {
+    font-size: 0px;
+}
+#bd-pub-button:after {
+    content: "Servers";
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-family: var(--font-primary) !important;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 9px;
+    font-weight: 400;
+}
+#bd-pub-button:hover {
+    font-family: var(--font-primary) !important;
+    font-size: 0px;
+    font-weight: 400;
+    background: var(--brand-experiment);
+}
+
+.bd-addon-views .bd-view-button.selected, .bd-button:hover {
+    background-color: var(--brand-experiment-560);
+}
+
 /* Bring popout closer to avatar :p */
 #app-mount .container-3baos1 .nameTag-3uD-yy {
     left: 162px !important;
@@ -347,6 +372,31 @@ a[href^="http://"] {
 
 a[href^="http://"]:after {
   content: " [INSECURE]";
+}
+
+#bd-pub-button {
+    font-size: 0px;
+}
+#bd-pub-button:after {
+    content: "Servers";
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-family: var(--font-primary) !important;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 9px;
+    font-weight: 400;
+}
+#bd-pub-button:hover {
+    font-family: var(--font-primary) !important;
+    font-size: 0px;
+    font-weight: 400;
+    background: var(--brand-experiment);
+}
+
+.bd-addon-views .bd-view-button.selected, .bd-button:hover {
+    background-color: var(--brand-experiment-560);
 }
 
 [aria-label*="download"] .icon-1DeIlz, [aria-label*="verify"] .icon-1DeIlz, [aria-label*="verification"] .icon-1DeIlz, [aria-label*="guide"] .icon-1DeIlz, [aria-label*="tutorial"] .icon-1DeIlz {
