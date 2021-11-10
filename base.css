@@ -458,6 +458,14 @@ a[href^="http://"]:after {
     background-color: var(--background-primary);
 }
 
+/* Fixes menu popups not being above all other elements */
+
+.layer-v9HyYc {
+    position: absolute;
+    pointer-events: auto;
+    z-index: 9999;
+}
+
 /* ======= For Desktop Users ======= */
 
 /* ===== Discord Wordmark ===== */
