@@ -112,7 +112,7 @@
     color: #7289DA !important;
 }
 
-.premiumLabel-fDtYys {
+.premiumLabel-fDtYys > svg {
     display: none;
 }
 .side-8zPYf6 [aria-controls="discord-nitro-tab"].item-PXvHYJ.themed-OHr7kt:hover:before, .side-8zPYf6 [aria-controls="subscriptions-tab"].item-PXvHYJ.themed-OHr7kt:hover:before {
