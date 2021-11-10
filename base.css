@@ -120,6 +120,16 @@
     border-left: var(--indicator-border-info) var(--indicator-selected-border) !important;
 }
 
+.mention.iconMentionText-8GCluA {
+  padding-left: 1.1rem !important;
+}
+
+
+/* Powercord Server CSS Snippet | https://discord.com/channels/538759280057122817/755005803303403570/902596695030919278 */
+.dropperIconButton-2shYII {
+    width: 69px; /* discord uses this value too shut up */
+}
+
 .activeNavItemPrimary-CRWnj6 {
     background-color: var(--main-color);
 }
