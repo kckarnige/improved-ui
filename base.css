@@ -539,6 +539,22 @@ button.ysink_zone_button.button-38aScr.lookOutlined-3sRXeN.colorBrand-3pXr91.siz
 button.ysink_zone_button.button-38aScr.lookOutlined-3sRXeN.colorBrand-3pXr91.sizeTiny-EgeIrh.grow-q77ONN:hover {
 	background: var(--brand-experiment-560);
 }
+
+button.ysink_zone_button.button-38aScr.lookOutlined-3sRXeN.colorGreen-29iAKY.sizeTiny-EgeIrh.grow-q77ONN {
+	border: none;
+	background: var(--old-green);
+	color: #fff;
+	text-align: center;
+	width: 5rem;
+	height: 2rem;
+}
+button.ysink_zone_button.button-38aScr.lookOutlined-3sRXeN.colorGreen-29iAKY.sizeTiny-EgeIrh.grow-q77ONN:hover {
+	background: var(--old-green-hover0);
+}
+.ysink_zone_row {
+	padding-bottom: 8px;
+}
+
 .ysink_zone_row {
 	padding-bottom: 8px;
 }
