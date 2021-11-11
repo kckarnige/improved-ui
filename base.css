@@ -534,9 +534,17 @@ button.ysink_zone_button.button-38aScr.lookOutlined-3sRXeN.colorBrand-3pXr91.siz
 	color: #fff;
 	text-align: center;
 	width: 5rem;
+	height: 2rem;
 }
 button.ysink_zone_button.button-38aScr.lookOutlined-3sRXeN.colorBrand-3pXr91.sizeTiny-EgeIrh.grow-q77ONN:hover {
 	background: var(--brand-experiment-560);
+}
+.ysink_zone_row {
+	padding-bottom: 8px;
+}
+	
+.ysink_zone_title {
+	transform: translateY(15%);
 }
 
 /* ===== Native Windows Titlebar (From #css-snippets in the Powercord Server) ===== */
