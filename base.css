@@ -502,6 +502,43 @@ a[href^="http://"]:after {
     line-height: 20px;
 }
 
+/* ~ Cumcord Presents: The Cum Zone ~ */
+.ysink_zone_header > h1 {
+	font-family: Comic Sans MS;
+	font-weight: normal;
+	text-transform: lowercase;
+}
+.ysink_zone_header > h1:before {
+	font-family: Comic Sans MS;
+	font-weight: normal;
+	text-transform: lowercase;
+	content: "* "
+}
+.ysink_zone_header > h1:after {
+	font-family: Comic Sans MS;
+	font-weight: normal;
+	text-transform: lowercase;
+	content: "."
+}
+div.colorStandard-2KCXvj.size14-e6ZScH.default-3nhoK-.formText-3fs7AJ.ysink_zone_ticker.modeDefault-3a2Ph1 > marquee {
+	display: none;
+}
+	
+div.colorStandard-2KCXvj.size14-e6ZScH.default-3nhoK-.formText-3fs7AJ.ysink_zone_ticker.modeDefault-3a2Ph1 {
+	padding-bottom: 10px;
+}
+	
+button.ysink_zone_button.button-38aScr.lookOutlined-3sRXeN.colorBrand-3pXr91.sizeTiny-EgeIrh.grow-q77ONN {
+	border: none;
+	background: var(--brand-experiment);
+	color: #fff;
+	text-align: center;
+	width: 5rem;
+}
+button.ysink_zone_button.button-38aScr.lookOutlined-3sRXeN.colorBrand-3pXr91.sizeTiny-EgeIrh.grow-q77ONN:hover {
+	background: var(--brand-experiment-560);
+}
+
 /* ===== Native Windows Titlebar (From #css-snippets in the Powercord Server) ===== */
 
 .platform-win .titleBar-AC4pGV {
@@ -544,7 +581,7 @@ a[href^="http://"]:after {
     width: 12px;
 }
 
-/* ===== AccountSwitcher Password Input Box ===== */
+/* ===== AccountSwitcher Password Input Box (Powercord Plugin) ===== */
 
 .content-1LAB8Z.content-mK72R6.thin-1ybCId.scrollerBase-289Jih > input[type="password"] {
     background: var(--activity-card-background);
