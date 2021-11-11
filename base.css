@@ -504,18 +504,18 @@ a[href^="http://"]:after {
 
 /* ~ Cumcord Presents: The Cum Zone ~ */
 .ysink_zone_header > h1 {
-	font-family: Comic Sans MS;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 	font-weight: normal;
 	text-transform: lowercase;
 }
 .ysink_zone_header > h1:before {
-	font-family: Comic Sans MS;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 	font-weight: normal;
 	text-transform: lowercase;
 	content: "* "
 }
 .ysink_zone_header > h1:after {
-	font-family: Comic Sans MS;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 	font-weight: normal;
 	text-transform: lowercase;
 	content: "."
