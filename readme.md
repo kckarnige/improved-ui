@@ -36,4 +36,4 @@ Greyple: <img src="https://kckarnige.is-a.dev/improved-ui/res/colors/greyple.svg
 
 <img src="https://user-images.githubusercontent.com/32397453/122653316-cda93600-d111-11eb-90d3-bf40dc7b4c86.png" height="14px" width="14px"> ArmCord Theme Install `git clone https://github.com/kckarnige/improved-ui` or [download the repo](https://github.com/kckarnige/improved-ui/archive/refs/heads/master.zip)
 
-[<img src="https://user-images.githubusercontent.com/32397453/141385369-857e575a-8b8e-46ac-a3f7-4885a52fe372.png" height="14px" width="14px"> Cumcord Plugin Url: `https://kckarnige.is-a.dev/cumcord-plugins/improvedui`](https://kckarnige.is-a.dev/cumcord-plugins/improvedui)
+[<img src="https://user-images.githubusercontent.com/32397453/141385369-857e575a-8b8e-46ac-a3f7-4885a52fe372.png" height="14px" width="14px"> Cumcord Plugin Url: `https://kckarnige.is-a.dev/cumcord-plugins/improvedui`](https://kckarnige.is-a.dev/cumcord-plugins/improvedui) *Non-configurable :'(*
