@@ -25,3 +25,5 @@
 [Custom Server Logos](https://github.com/kckarnige/custom-server-logos)
 
 [Transparent Menus](https://github.com/kckarnige/transparent-menus)
+
+[Modern Channel Indicators Fork](https://github.com/kckarnige/modern-channel-indicators)
