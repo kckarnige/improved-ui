@@ -1,6 +1,6 @@
 @import url('https://discord-addons.github.io/discord-addons/xcores/themes/RNT_Core.css'); /* <-- No Nitro */
 @import url("https://discord-theme-addons.github.io/compact-userarea/src/support/compiled.css");
-@import url('https://kckarnige.is-a.dev/modern-channel-indicators/src/support/compiled.css');
+@import url('https://discord-theme-addons.github.io/modern-channel-indicators/src/support/compiled.css');
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 @import url('https://discord-theme-addons.github.io/refined-user-connections/src/support/compiled.css');
 @import url("https://kckarnige.is-a.dev/custom-server-logos/base.css");
@@ -485,6 +485,10 @@ a[href^="http://"]:after {
     background-color: currentColor;
     height: 24px;
     width: 24px;
+}
+
+.modeSelected-346R90 .iconContainer-1BBaeJ:before {
+    color: var(--indicator-selected-border) !important;
 }
 
 .childWrapper-anI2G9, .wrapper-1BJsBx {
