@@ -432,7 +432,7 @@ a[href^="http://"]:after {
     background-color: var(--brand-experiment-560);
 }
 
-[aria-label*="download"] .icon-1DeIlz, [aria-label*="verify"] .icon-1DeIlz, [aria-label*="verification"] .icon-1DeIlz, [aria-label*="guide"] .icon-1DeIlz, [aria-label*="tutorial"] .icon-1DeIlz {
+[aria-label*="download"] .icon-1DeIlz, [aria-label*="releases"] .icon-1DeIlz, [aria-label*="verify"] .icon-1DeIlz, [aria-label*="verification"] .icon-1DeIlz, [aria-label*="guide"] .icon-1DeIlz, [aria-label*="tutorial"] .icon-1DeIlz {
     color: transparent !important;
 }
 [aria-label*="download"] .iconContainer-1BBaeJ:before, [aria-label*="releases"] .iconContainer-1BBaeJ:before {
