@@ -435,7 +435,7 @@ a[href^="http://"]:after {
 [aria-label*="download"] .icon-1DeIlz, [aria-label*="verify"] .icon-1DeIlz, [aria-label*="verification"] .icon-1DeIlz, [aria-label*="guide"] .icon-1DeIlz, [aria-label*="tutorial"] .icon-1DeIlz {
     color: transparent !important;
 }
-[aria-label*="download"] .iconContainer-1BBaeJ:before {
+[aria-label*="download"] .iconContainer-1BBaeJ:before, [aria-label*="releases"] .iconContainer-1BBaeJ:before {
     content: " ";
     -webkit-mask: url("https://kckarnige.is-a.dev/improved-ui/res/download-chan-icon.svg");
     background-repeat: no-repeat;
