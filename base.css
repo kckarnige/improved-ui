@@ -487,6 +487,10 @@ a[href^="http://"]:after {
     width: 24px;
 }
 
+.modeUnread-1qO3K1 .iconContainer-1BBaeJ:before {
+    color: var(--indicator-unread-icons,rgba(var(--indicator-unread,var(--fallback-unread)),.6)) !important;
+}
+
 .modeSelected-346R90 .iconContainer-1BBaeJ:before {
     color: var(--indicator-selected-border) !important;
 }
