@@ -445,7 +445,7 @@ a[href^="http://"]:after {
     height: 24px;
     width: 24px;
 }
-[aria-label*="download"] .iconContainer-1BBaeJ[aria-label*="(Limited)"]:before {
+[aria-label*="download"] .iconContainer-1BBaeJ[aria-label*="(Limited)"]:before, [aria-label*="releases"] .iconContainer-1BBaeJ[aria-label*="(Limited)"]:before {
     content: " ";
     -webkit-mask: url("https://kckarnige.is-a.dev/improved-ui/res/priv-download-chan-icon.svg") !important;
     background-repeat: no-repeat;
