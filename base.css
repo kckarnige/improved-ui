@@ -592,6 +592,15 @@ button.ysink_zone_button.button-38aScr.lookOutlined-3sRXeN.colorGreen-29iAKY.siz
 
 /* ===== Native Windows Titlebar (From #css-snippets in the Powercord Server) ===== */
 
+.platform-win .bg-h5JY_x {
+    top: -30px;
+}
+
+.platform-win .container-16j22k {
+    padding-top: 30px;
+    top: -30px;
+}
+
 .platform-win .titleBar-AC4pGV {
     height: 30.3px;
     margin-top: 0;
