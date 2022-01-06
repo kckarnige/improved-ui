@@ -107,7 +107,7 @@
 [aria-controls="discord-nitro-tab"].item-PXvHYJ.selected-3s45Ha.themed-OHr7kt,
 [aria-controls="cumcord_plugins-tab"].item-PXvHYJ.selected-3s45Ha.themed-OHr7kt,
 [data-item-id="pc-moduleManager-plugins"].item-PXvHYJ.selected-3s45Ha.themed-OHr7kt,
-.powercord [data-item-id="theme-toggler"].item-PXvHYJ.selected-3s45Ha.themed-OHr7kt,
+[data-item-id="theme-toggler"].item-PXvHYJ.selected-3s45Ha.themed-OHr7kt,
 [aria-controls="plugins-tab"].item-PXvHYJ.selected-3s45Ha.themed-OHr7kt,
 [aria-controls="subscriptions-tab"].item-PXvHYJ.selected-3s45Ha.themed-OHr7kt {
     background: #7289da !important;
@@ -117,7 +117,7 @@
 [aria-controls="discord-nitro-tab"],
 [aria-controls="cumcord_plugins-tab"],
 [data-item-id="pc-moduleManager-plugins"],
-.powercord [data-item-id="theme-toggler"],
+[data-item-id="theme-toggler"],
 [aria-controls="plugins-tab"],
 [aria-controls="subscriptions-tab"] {
     color: #7289da !important;
@@ -126,7 +126,7 @@
 [aria-controls="discord-nitro-tab"]:hover,
 [aria-controls="cumcord_plugins-tab"]:hover,
 [data-item-id="pc-moduleManager-plugins"]:hover,
-.powercord [data-item-id="theme-toggler"]:hover,
+[data-item-id="theme-toggler"]:hover,
 [aria-controls="plugins-tab"]:hover,
 [aria-controls="subscriptions-tab"]:hover {
     background: #7289da1a !important;
@@ -136,7 +136,7 @@
 .side-8zPYf6 [aria-controls="discord-nitro-tab"].item-PXvHYJ.themed-OHr7kt:hover:before,
 .side-8zPYf6 [aria-controls="cumcord_plugins-tab"].item-PXvHYJ.themed-OHr7kt:hover:before,
 .side-8zPYf6 [data-item-id="pc-moduleManager-plugins"].item-PXvHYJ.themed-OHr7kt:hover:before,
-.powercord .side-8zPYf6 [data-item-id="theme-toggler"].item-PXvHYJ.themed-OHr7kt:hover:before,
+.side-8zPYf6 [data-item-id="theme-toggler"].item-PXvHYJ.themed-OHr7kt:hover:before,
 .side-8zPYf6 [aria-controls="plugins-tab"].item-PXvHYJ.themed-OHr7kt:hover:before,
 .side-8zPYf6 [aria-controls="subscriptions-tab"].item-PXvHYJ.themed-OHr7kt:hover:before {
     content: "";
