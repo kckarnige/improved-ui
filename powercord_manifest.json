@@ -3,6 +3,6 @@
     "description": "A simple, slightly customizable theme for Discord",
     "version": "2.3.2",
     "author": "KayoticCarnige",
-    "theme": "ArmCord.css",
+    "theme": "theme.css",
     "license": "OSL-3.0"
 }

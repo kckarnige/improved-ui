@@ -1,8 +1,0 @@
-<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="12" height="12">
-	<title>restore-k-30</title>
-	<style>
-		tspan { white-space:pre }
-		.shp0 { fill: #171717 } 
-	</style>
-	<path id="Path 0" fill-rule="evenodd" class="shp0" d="M16 69.6L69.6 69.6L69.6 16L284 16L284 230.4L230.4 230.4L230.4 284L16 284L16 69.6ZM230.4 69.6L230.4 203.6L257.2 203.6L257.2 42.8L96.4 42.8L96.4 69.6L230.4 69.6ZM42.8 257.2L203.6 257.2L203.6 96.4L42.8 96.4L42.8 257.2Z" />
-</svg>
