@@ -1,5 +1,5 @@
 ## This guide is for the ArmCord Discord Client, if you can, please use Powercord or BetterDiscord as ArmCord is still in development when it comes to themes
-### Note: Custom themes are still being developed for ArmCord, so when ArmCord 2.5.0 is released, this guide will be deleted and replaced with a download
+### Note: Custom themes are still being developed for ArmCord 3.0.0, please be patient
 - Go to the [ArmCord.css](https://github.com/kckarnige/improved-ui/blob/master/ArmCord.css) file
 - Click "Raw", then copy all of the code
 - Go to ArmCord Plugins Tab
