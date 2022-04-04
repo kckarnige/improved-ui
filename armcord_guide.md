@@ -2,6 +2,6 @@
 ### Note: Custom themes are still being developed for ArmCord 3.0.0, please be patient
 - Go to the [ArmCord.css](https://github.com/kckarnige/improved-ui/blob/master/ArmCord.css) file
 - Click "Raw", then copy all of the code
-- Go to ArmCord Plugins Tab
+- Go to ArmCord's Goosemod Plugins Tab
 - Search for "Custom CSS" and install
 - Go to the new "Custom CSS" tab and paste the code
