@@ -8,8 +8,8 @@
 
 **/
 
-
 @import url('https://kckarnige.is-a.dev/improved-ui/base.css');
+
   
 /* Preset Colors: classic-blurple (Default) / blurple (Rebrand Version) / canary-gold / greyple / bingus-red / bandaged-blue */
 /* Example: --main-color: var(--custom-color); or --main-color: #7289dafe; (YOU MUST ADD 'FE' AT THE END OF YOUR HEX CODE) */
@@ -23,4 +23,5 @@
     --tooltip-text-color: #fff;
     --default-folder-color: #7289DA;
     --home-icon: var(--classic-clyde); /* '--rebrand-clyde' or '--classic-clyde' */
+    --accent: var(--main-color);
 }
