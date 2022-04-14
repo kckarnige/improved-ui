@@ -53,7 +53,7 @@
   --container-color: var(--background-floating);
 }
 
-:root { /* Channel Indicator CSS */
+.side-2ur1Qk { /* Channel Indicator CSS (For the settings menu cuz I'm lazy) */
     /* ---- base -- */
     --indicator-hovered: rgba(79, 84, 92, 0.25);
     --indicator-rounding: 0;
@@ -77,6 +77,27 @@
     --indicator-connected-hover: rgba(var(--indicator-connected), 0.18);
 }
 
+.theme-light { /* Channel Indicator CSS P1 */
+    --indicator-unread: 0, calc(var(--saturation-factor, 1) * 0%), 0%;
+    --indicator-selected: 235, calc(var(--saturation-factor, 1) * 86%), 65%;
+    --indicator-connected: 139, calc(var(--saturation-factor, 1) * 47.6%), 48.6%;
+    --indicator-hovered: hsla(var(--indicator-unread), 0.08);
+    --text-active: black;
+}
+
+.theme-dark { /* Channel Indicator CSS P2 */
+    --indicator-unread: 0, calc(var(--saturation-factor, 1) * 0%), 100%;
+    --indicator-selected: 235, calc(var(--saturation-factor, 1) * 86%), 65%;
+    --indicator-connected: 139, calc(var(--saturation-factor, 1) * 86%), 65%;
+    --indicator-hovered: hsla(var(--indicator-unread), 0.045);
+    --text-active: white;
+}
+
+:root { /* Channel Indicator CSS P3 */
+    --indicator-border-style: 2px solid;
+    --indicator-rounding: 0;
+}
+
 :root {
     --old-green-transparent: #43b58133;
 }
@@ -89,7 +110,7 @@
     padding-top: 6px;
     padding-bottom: 6px;
     margin-bottom: 2px;
-    border-radius: var(--indicator-rounding);
+    border-radius: 0;
 }
 	
 .side-2ur1Qk .item-3XjbnG:hover:before {
@@ -118,6 +139,7 @@
 [aria-controls="cumcord_plugins-tab"].item-3XjbnG.selected-g-kMVV.themed-2-lozF,
 [data-item-id="pc-moduleManager-plugins"].item-3XjbnG.selected-g-kMVV.themed-2-lozF,
 [data-item-id="theme-toggler"].item-3XjbnG.selected-g-kMVV.themed-2-lozF,
+[aria-controls="bdcompat-tab"].item-3XjbnG.selected-g-kMVV.themed-2-lozF,
 [aria-controls="plugins-tab"].item-3XjbnG.selected-g-kMVV.themed-2-lozF,
 [aria-controls="subscriptions-tab"].item-3XjbnG.selected-g-kMVV.themed-2-lozF {
     background: #7289da !important;
@@ -128,6 +150,7 @@
 [aria-controls="cumcord_plugins-tab"],
 [data-item-id="pc-moduleManager-plugins"],
 [data-item-id="theme-toggler"],
+[aria-controls="bdcompat-tab"],
 [aria-controls="plugins-tab"],
 [aria-controls="subscriptions-tab"] {
     color: #7289da !important;
@@ -137,6 +160,7 @@
 [aria-controls="cumcord_plugins-tab"]:hover,
 [data-item-id="pc-moduleManager-plugins"]:hover,
 [data-item-id="theme-toggler"]:hover,
+[aria-controls="bdcompat-tab"]:hover,
 [aria-controls="plugins-tab"]:hover,
 [aria-controls="subscriptions-tab"]:hover {
     background: #7289da1a !important;
@@ -147,6 +171,7 @@
 .side-2ur1Qk [aria-controls="cumcord_plugins-tab"].item-3XjbnG.themed-2-lozF:hover:before,
 .side-2ur1Qk [data-item-id="pc-moduleManager-plugins"].item-3XjbnG.themed-2-lozF:hover:before,
 .side-2ur1Qk [data-item-id="theme-toggler"].item-3XjbnG.themed-2-lozF:hover:before,
+.side-2ur1Qk [aria-controls="bdcompat-tab"].item-3XjbnG.themed-2-lozF:hover:before,
 .side-2ur1Qk [aria-controls="plugins-tab"].item-3XjbnG.themed-2-lozF:hover:before,
 .side-2ur1Qk [aria-controls="subscriptions-tab"].item-3XjbnG.themed-2-lozF:hover:before {
     content: "";
