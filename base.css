@@ -412,10 +412,10 @@ a[href^="http://"]:after {
     background-color: var(--brand-experiment-560);
 }
 
-[aria-label*="download"] .icon-1DeIlz, [aria-label*="releases"] .icon-1DeIlz, [aria-label*="verify"] .icon-1DeIlz, [aria-label*="verification"] .icon-1DeIlz, [aria-label*="guide"] .icon-1DeIlz, [aria-label*="tutorial"] .icon-1DeIlz {
+[aria-label*="download"] .icon-2W8DHg, [aria-label*="releases"] .icon-2W8DHg, [aria-label*="verify"] .icon-2W8DHg, [aria-label*="verification"] .icon-2W8DHg, [aria-label*="guide"] .icon-2W8DHg, [aria-label*="tutorial"] .icon-2W8DHg {
     color: transparent !important;
 }
-[aria-label*="download"] .iconContainer-1BBaeJ:before, [aria-label*="releases"] .iconContainer-1BBaeJ:before {
+[aria-label*="download"] .iconContainer-21RCa3:before, [aria-label*="releases"] .iconContainer-21RCa3:before {
     content: " ";
     -webkit-mask: url("https://kckarnige.is-a.dev/improved-ui/res/download-chan-icon.svg");
     background-repeat: no-repeat;
@@ -425,7 +425,7 @@ a[href^="http://"]:after {
     height: 24px;
     width: 24px;
 }
-[aria-label*="download"] .iconContainer-1BBaeJ[aria-label*="(Limited)"]:before, [aria-label*="releases"] .iconContainer-1BBaeJ[aria-label*="(Limited)"]:before {
+[aria-label*="download"] .iconContainer-21RCa3[aria-label*="(Limited)"]:before, [aria-label*="releases"] .iconContainer-21RCa3[aria-label*="(Limited)"]:before {
     content: " ";
     -webkit-mask: url("https://kckarnige.is-a.dev/improved-ui/res/priv-download-chan-icon.svg") !important;
     background-repeat: no-repeat;
@@ -435,7 +435,7 @@ a[href^="http://"]:after {
     height: 24px;
     width: 24px;
 }
-[aria-label*="verify"] .iconContainer-1BBaeJ:before, [aria-label*="verification"] .iconContainer-1BBaeJ:before {
+[aria-label*="verify"] .iconContainer-21RCa3:before, [aria-label*="verification"] .iconContainer-21RCa3:before {
     content: " ";
     -webkit-mask: url("https://kckarnige.is-a.dev/improved-ui/res/verify-chan-icon.svg") !important;
     background-repeat: no-repeat;
@@ -446,7 +446,7 @@ a[href^="http://"]:after {
     width: 24px;
 }
 
-[aria-label*="guide"] .iconContainer-1BBaeJ:before, [aria-label*="tutorial"] .iconContainer-1BBaeJ:before {
+[aria-label*="guide"] .iconContainer-21RCa3:before, [aria-label*="tutorial"] .iconContainer-21RCa3:before {
     content: " ";
     -webkit-mask: url("https://kckarnige.is-a.dev/improved-ui/res/guide-chan-icon.svg");
     background-repeat: no-repeat;
@@ -456,7 +456,7 @@ a[href^="http://"]:after {
     height: 24px;
     width: 24px;
 }
-[aria-label*="guide"] .iconContainer-1BBaeJ[aria-label*="(Limited)"]:before, [aria-label*="tutorial"] .iconContainer-1BBaeJ[aria-label*="(Limited)"]:before {
+[aria-label*="guide"] .iconContainer-21RCa3[aria-label*="(Limited)"]:before, [aria-label*="tutorial"] .iconContainer-21RCa3[aria-label*="(Limited)"]:before {
     content: " ";
     -webkit-mask: url("https://kckarnige.is-a.dev/improved-ui/res/priv-guide-chan-icon.svg") !important;
     background-repeat: no-repeat;
@@ -467,11 +467,11 @@ a[href^="http://"]:after {
     width: 24px;
 }
 
-.modeUnread-1qO3K1 .iconContainer-1BBaeJ:before {
+.modeUnread-1qO3K1 .iconContainer-21RCa3:before {
     color: var(--indicator-unread-icons,rgba(var(--indicator-unread,var(--fallback-unread)),.6)) !important;
 }
 
-.modeSelected-346R90 .iconContainer-1BBaeJ:before {
+.modeSelected-346R90 .iconContainer-21RCa3:before {
     color: var(--indicator-selected-border) !important;
 }
 
