@@ -79,16 +79,16 @@
 
 .theme-light { /* Channel Indicator CSS P1 */
     --indicator-unread: 0, calc(var(--saturation-factor, 1) * 0%), 0%;
-    --indicator-selected: 235, calc(var(--saturation-factor, 1) * 86%), 75%;
-    --indicator-connected: 139, calc(var(--saturation-factor, 1) * 86%), 75%;
+    --indicator-selected: 235, calc(var(--saturation-factor, 1) * 86%), 72%;
+    --indicator-connected: 139, calc(var(--saturation-factor, 1) * 86%), 72%;
     --indicator-hovered: hsla(var(--indicator-unread), 0.08);
     --text-active: black;
 }
 
 .theme-dark { /* Channel Indicator CSS P2 */
     --indicator-unread: 0, calc(var(--saturation-factor, 1) * 0%), 100%;
-    --indicator-selected: 235, calc(var(--saturation-factor, 1) * 86%), 75%;
-    --indicator-connected: 139, calc(var(--saturation-factor, 1) * 86%), 75%;
+    --indicator-selected: 235, calc(var(--saturation-factor, 1) * 86%), 72%;
+    --indicator-connected: 139, calc(var(--saturation-factor, 1) * 86%), 72%;
     --indicator-hovered: hsla(var(--indicator-unread), 0.045);
     --text-active: white;
 }
