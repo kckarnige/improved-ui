@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "634168893644210186",
+  "title": "Improved UI",
+  "description": "A simple theme for Discord",
+  "type": "object",
+  "properties": {
+    "name": {
+      "description": "Improved UI Theme",
+      "type": "string"
+    },
+    "description": {
+      "description": "A simple theme for Discord",
+      "type": "string"
+    },
+    "author": {
+      "description": "KayoticCarnige",
+      "type": "string"
+    },
+    "license": {
+      "description": "OSL-3.0",
+      "type": "string"
+    },
+    "media": {
+      "description": "https://raw.githubusercontent.com/kckarnige/improved-ui/master/preview.png",
+      "type": [ "array", "string" ],
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [ "name", "description", "author" ]
+}
