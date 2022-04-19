@@ -1,0 +1,17 @@
+@import url('https://kckarnige.is-a.dev/improved-ui/base.css');
+
+  
+/* Preset Colors: classic-blurple (Default) / blurple (Rebrand Version) / canary-gold / greyple / bingus-red / bandaged-blue */
+/* Example: --main-color: var(--custom-color); or --main-color: #7289dafe; (YOU MUST ADD 'FE' AT THE END OF YOUR HEX CODE) */
+:root { 
+    --main-color: var(--classic-blurple); 
+    --ping-color: #f04747fe;
+    --selector-color: var(--main-color);
+    --wordmark-text-color: #72767d;
+    --wordmark-text: "Discord"; /* This should only be text (Example: Lightcord, Binguscord, BetterDiscord, Discord 2, I think you get it) */
+    --tooltip-color: var(--main-color);
+    --tooltip-text-color: #fff;
+    --default-folder-color: #7289DA;
+    --home-icon: var(--classic-clyde); /* '--rebrand-clyde' or '--classic-clyde' */
+    --accent: var(--main-color);
+}
