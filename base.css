@@ -19,6 +19,18 @@
 /* ======================================================= */
 
 
+/* === User connection styles for Xbox and PlayStation === */
+[alt="Xbox Logo"] + .connectedAccountNameInner-t24B11::after {
+    background: #095309 !important;
+    border-left-color: #1ded1d !important;
+}
+
+[alt="PlayStation Network Logo"] + .connectedAccountNameInner-t24B11::after {
+    background: #004784 !important;
+    border-left-color: #0088ff !important;
+}
+/* ======================================================= */
+
 :root { /* Preset Settings */
     --classic-blurple: #7289dafe;
     --blurple: #5865f2fe;
