@@ -1,1 +1,1 @@
-# Clear your cache every update
+# Disable the theme and clear your Discord cache
