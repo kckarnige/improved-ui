@@ -29,6 +29,22 @@
     background: #004784 !important;
     border-left-color: #0088ff !important;
 }
+[class*="premiumLabel-"]:before {
+  content: "Discord Nitro";
+  color: inherit;
+  font-size: 16px;
+}
+[class*="premiumLabel-"] {
+  font-size: 0px;
+}
+/* === Credit to Znunu (https://github.com/Znunu/Discord-Purge-Nitro-2 | Commit: cf51c37) === */
+button[aria-label="Open sticker picker"],
+button[aria-label="Send a gift"],
+.containerExpanded-3MGTRr,
+a[href='/store'],
+div[aria-label="Close DM"],
+.optionBox-1b4n4P:nth-child(2),
+none {display:none !important;}
 /* ======================================================= */
 
 :root { /* Preset Settings */
