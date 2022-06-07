@@ -192,7 +192,8 @@ none {display:none !important;}
 [data-item-id="theme-toggler"].item-3XjbnG.selected-g-kMVV.themed-2-lozF,
 [aria-controls="bdcompat-tab"].item-3XjbnG.selected-g-kMVV.themed-2-lozF,
 [aria-controls="plugins-tab"].item-3XjbnG.selected-g-kMVV.themed-2-lozF,
-[aria-controls="subscriptions-tab"].item-3XjbnG.selected-g-kMVV.themed-2-lozF {
+[aria-controls="subscriptions-tab"].item-3XjbnG.selected-g-kMVV.themed-2-lozF,
+[aria-controls="pc-modulemanager-themes-tab"].item-3XjbnG.selected-g-kMVV.themed-2-lozF {
     background: #7289da !important;
     color: #fff !important;
 }
@@ -204,7 +205,8 @@ none {display:none !important;}
 [data-item-id="theme-toggler"],
 [aria-controls="bdcompat-tab"],
 [aria-controls="plugins-tab"],
-[aria-controls="subscriptions-tab"] {
+[aria-controls="subscriptions-tab"],
+[aria-controls="pc-modulemanager-themes-tab"] {
     color: #7289da !important;
 }
 
@@ -215,19 +217,21 @@ none {display:none !important;}
 [data-item-id="theme-toggler"]:hover,
 [aria-controls="bdcompat-tab"]:hover,
 [aria-controls="plugins-tab"]:hover,
-[aria-controls="subscriptions-tab"]:hover {
+[aria-controls="subscriptions-tab"]:hover,
+[aria-controls="pc-modulemanager-themes-tab"]:hover {
     background: #7289da1a !important;
     color: #7289da !important;
 }
 
-.side-2ur1Qk [aria-controls="discord-nitro-tab"].item-3XjbnG.themed-2-lozF:hover:before,
+[aria-controls="discord-nitro-tab"].item-3XjbnG.themed-2-lozF:hover:before,
 [aria-controls="ysink_stain_cumstain-tab"].item-3XjbnG.themed-2-lozF:hover:before,
-.side-2ur1Qk [aria-controls="cumcord_plugins-tab"].item-3XjbnG.themed-2-lozF:hover:before,
-.side-2ur1Qk [data-item-id="pc-moduleManager-plugins"].item-3XjbnG.themed-2-lozF:hover:before,
-.side-2ur1Qk [data-item-id="theme-toggler"].item-3XjbnG.themed-2-lozF:hover:before,
-.side-2ur1Qk [aria-controls="bdcompat-tab"].item-3XjbnG.themed-2-lozF:hover:before,
-.side-2ur1Qk [aria-controls="plugins-tab"].item-3XjbnG.themed-2-lozF:hover:before,
-.side-2ur1Qk [aria-controls="subscriptions-tab"].item-3XjbnG.themed-2-lozF:hover:before {
+[aria-controls="cumcord_plugins-tab"].item-3XjbnG.themed-2-lozF:hover:before,
+[data-item-id="pc-moduleManager-plugins"].item-3XjbnG.themed-2-lozF:hover:before,
+[data-item-id="theme-toggler"].item-3XjbnG.themed-2-lozF:hover:before,
+[aria-controls="bdcompat-tab"].item-3XjbnG.themed-2-lozF:hover:before,
+[aria-controls="plugins-tab"].item-3XjbnG.themed-2-lozF:hover:before,
+[aria-controls="subscriptions-tab"].item-3XjbnG.themed-2-lozF:hover:before,
+[aria-controls="pc-modulemanager-themes-tab"].item-3XjbnG.themed-2-lozF:hover:before {
     content: "";
     position: absolute;
     top: 0;
