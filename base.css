@@ -85,6 +85,24 @@ none {display:none !important;}
   outline: none !important;
 }
 
+@font-face {
+    font-family: 'Old Italics';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://kckarnige.is-a.dev/res/old_italics.woff2') format("woff2");
+}
+@font-face {
+    font-family: 'Old Italics';
+    font-style: bold;
+    font-weight: 700;
+    src: url('https://kckarnige.is-a.dev/res/old_bold_italics.woff2') format("woff2");
+}
+.markup-eYLPri em, .italics-1HfeXG {
+    font-family: 'Old Italics';
+    font-style: oblique !important;
+}
+
+
 .side-2ur1Qk { /* Channel Indicator CSS (For the settings menu cuz I'm lazy) */
     /* ---- base -- */
     --indicator-hovered: rgba(79, 84, 92, 0.25);
