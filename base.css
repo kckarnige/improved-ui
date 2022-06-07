@@ -89,13 +89,13 @@ none {display:none !important;}
     font-family: 'Old Italics';
     font-style: normal;
     font-weight: 400;
-    src: url('https://kckarnige.is-a.dev/res/old_italics.woff2') format("woff2");
+    src: url('https://kckarnige.is-a.dev/improved-ui/res/old_italics.woff2') format("woff2");
 }
 @font-face {
     font-family: 'Old Italics';
     font-style: bold;
     font-weight: 700;
-    src: url('https://kckarnige.is-a.dev/res/old_bold_italics.woff2') format("woff2");
+    src: url('https://kckarnige.is-a.dev/improved-ui/res/old_bold_italics.woff2') format("woff2");
 }
 .markup-eYLPri em, .italics-1HfeXG {
     font-family: 'Old Italics';
