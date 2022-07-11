@@ -18,6 +18,10 @@
 @import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/general/other.css');
 /* ======================================================= */
 
+/* Remove Radial Status version info */
+#app-mount .info-3pQQBb .line-18uChy:last-child:after {
+    display: none;
+}
 
 /* === User connection styles for Xbox and PlayStation === */
 [alt="Xbox Logo"] + .connectedAccountNameInner-t24B11::after {
