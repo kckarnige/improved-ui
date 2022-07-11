@@ -1,10 +1,10 @@
 ## [LuckFire](https://github.com/LuckFire)
 
-[Modern Channel Indicators](https://github.com/Discord-Theme-Addons/modern-channel-indicators)
+[Modern Channel Indicators](https://github.com/discord-extensions/modern-channel-indicators)
 
-[Refined User Connections](https://github.com/Discord-Theme-Addons/refined-User-Connections)
+[Refined User Connections](https://github.com/discord-extensions/refined-User-Connections)
 
-[Compact Userarea](https://github.com/Discord-Theme-Addons/compact-userarea)
+[Compact Userarea](https://github.com/discord-extensions/compact-userarea)
 
 ## [Gibbu](https://www.gibbu.me)
 
@@ -16,7 +16,7 @@
 
 ## [GooseNest Team](https://github.com/Goose-Nest)
 
-[Revert Discord 2021 Branding](https://github.com/Goose-Nest/GT-RevertRebrand)
+[Revert Brand](https://github.com/Goose-Nest/GT-RevertRebrand)
 
 ## [KayoticCarnige (Me :D)](https://github.com/kckarnige)
 
