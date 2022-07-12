@@ -142,6 +142,27 @@ none {display:none !important;}
     --indicator-connected: 139, calc(var(--saturation-factor, 1) * 80%), 75% !important;
 }
 
+:root { /* Channel Indicator CSS P3 */
+    --indicator-border-size: 2px;
+    --indicator-border-style: solid;
+    --indicator-rounding: 0;
+    --item-selected-icon: hsl(var(--indicator-selected));
+    --item-selected-indicator: hsl(var(--indicator-selected));
+    --item-selected-background: hsla(var(--indicator-selected), 0.1);
+    --item-selected-background-hover: hsla(var(--indicator-selected), 0.2);
+
+    --item-connected-icon: hsl(var(--indicator-connected));
+    --item-connected-indicator: hsl(var(--indicator-connected));
+    --item-connected-background: hsl(var(--indicator-connected), 0.1);
+    --item-connected-background-hover: hsl(var(--indicator-connected), 0.2);
+
+    --item-unread-icon: hsl(var(--indicator-unread));
+    --item-unread-indicator: hsl(var(--indicator-unread), 0.5);
+    --item-unread-background: hsl(var(--indicator-unread), 0.025);
+    --item-unread-background-hover: hsl(var(--indicator-unread), 0.045);
+}
+/* ======================================= */
+
 :root {
     --old-green-transparent: #43b58133;
 }
