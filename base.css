@@ -133,24 +133,13 @@ none {display:none !important;}
 }
 
 .theme-light { /* Channel Indicator CSS P1 */
-    --indicator-unread: 0, calc(var(--saturation-factor, 1) * 0%), 0%;
-    --indicator-selected: 230, calc(var(--saturation-factor, 1) * 80%), 75%;
-    --indicator-connected: 139, calc(var(--saturation-factor, 1) * 80%), 75%;
-    --indicator-hovered: hsla(var(--indicator-unread), 0.08);
-    --text-active: black;
+    --indicator-selected: 230, calc(var(--saturation-factor, 1) * 80%), 75% !important;
+    --indicator-connected: 139, calc(var(--saturation-factor, 1) * 80%), 75% !important;
 }
 
 .theme-dark { /* Channel Indicator CSS P2 */
-    --indicator-unread: 0, calc(var(--saturation-factor, 1) * 0%), 100%;
-    --indicator-selected: 230, calc(var(--saturation-factor, 1) * 80%), 75%;
-    --indicator-connected: 139, calc(var(--saturation-factor, 1) * 80%), 75%;
-    --indicator-hovered: hsla(var(--indicator-unread), 0.045);
-    --text-active: white;
-}
-
-:root { /* Channel Indicator CSS P3 */
-    --indicator-border-style: 2px solid;
-    --indicator-rounding: 0;
+    --indicator-selected: 230, calc(var(--saturation-factor, 1) * 80%), 75% !important;
+    --indicator-connected: 139, calc(var(--saturation-factor, 1) * 80%), 75% !important;
 }
 
 :root {
