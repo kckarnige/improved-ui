@@ -1,11 +1,10 @@
-@import url('https://discord-addons.github.io/discord-addons/xcores/themes/RNT_Core.css'); /* <-- No Nitro */
-@import url('https://discord-extensions.github.io/modern-indicators/support/compiled.css');
+@import url('https://discord-extensions.github.io/modern-indicators/src/source.css');
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
-@import url('https://discord-theme-addons.github.io/refined-user-connections/src/support/compiled.css');
+@import url('https://raw.githubusercontent.com/discord-extensions/modern-user-connections/main/src/source.css');
 @import url("https://kckarnige.is-a.dev/femboi_owo/discord-font.css");
 @import url('https://kckarnige.is-a.dev/server-scroll/base.css');
+@import url('https://discord-extensions.github.io/snippets/windows-titlebar/source.css');
 @import url('https://kckarnige.is-a.dev/custom-server-logos/base.css');
-@import url('https://discord-extensions.github.io/modern-indicators/src/source.css');
 
 /* === All snippets below belong to the GooseNest team === */
 @import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/variables.css');
@@ -618,38 +617,6 @@ button.ysink_zone_button[class*="colorGreen-"]:hover {
 	
 .ysink_zone_title {
 	transform: translateY(15%);
-}
-
-/* ===== Native Windows Titlebar (From #css-snippets in the Powercord Server) ===== */
-
-.platform-win .bg-1QIAus {
-    top: -30px;
-}
-
-.platform-win .container-2RRFHK {
-    padding-top: 30px;
-    top: -30px;
-}
-
-.platform-win [class*="titleBar-"] {
-    height: 30.3px;
-    margin-top: 0;
-}
-.platform-win [class*="titleBar-"] [class*="wordmark-"] {
-    top: 3.5px;
-}
-.platform-win [class*="titleBar-"] [class*="winButton-"] {
-    transition: 150ms ease;
-    height: 30px;
-    width: 45px;
-    top: 0;
-}
-.platform-win [class*="titleBar-"] [class*="winButtonClose-"]:hover {
-    background-color: #e81123;
-}
-.platform-win [class*="titleBar-"] [class*="winButtonClose-"]:active {
-    background-color: #f1707a;
-    color: #000000cc;
 }
 
 /* My restore window icon (Thank you @aaronlink127#0127 and @Nao Tomori#1166 for helping out with CSS masks :D) */
