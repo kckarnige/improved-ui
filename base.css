@@ -22,19 +22,10 @@
     display: none;
 }
 
-/* === User connection styles for Xbox and PlayStation === */
-[alt="Xbox Logo"] + .connectedAccountNameInner-t24B11::after {
-    background: #095309 !important;
-    border-left-color: #1ded1d !important;
-}
-
 .iconSizeSmol-qsFaRK {
     background-color: #0000005d;
 }
-[alt="PlayStation Network Logo"] + .connectedAccountNameInner-t24B11::after {
-    background: #004784 !important;
-    border-left-color: #0088ff !important;
-}
+
 [class*="premiumLabel-"]:before {
   content: "Discord Nitro";
   color: inherit;
@@ -478,13 +469,17 @@ svg.mask-1qbNWk > rect[fill="rgba(250, 166, 26, 1)"] {
     left: calc(85% + 4px) !important;
 }
 
-a[href^="grabify.link"] {
-  display: none;
+a[href*="grabify.link"] {
+  font-size: 0px;
+  text-decoration: none !important;
 }
-
-a[href^="grabify.link"]:after {
-  display: inline;
-  content: "[ IP LOGGER LINK ]";
+a[href*="grabify.link"]:after {
+  font-size: initial;
+  content: "[ IP LOGGER LINK | GRABIFY.LINK ]";
+  color: #ff0000;
+}
+a[href*="grabify.link"]:hover:after {
+  color: #ff6666;
 }
 
 #bd-pub-button {
