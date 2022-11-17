@@ -478,12 +478,13 @@ svg.mask-1qbNWk > rect[fill="rgba(250, 166, 26, 1)"] {
     left: calc(85% + 4px) !important;
 }
 
-a[href^="http://"] {
-  color: #ff1111;
+a[href^="grabify.link"] {
+  display: none;
 }
 
-a[href^="http://"]:after {
-  content: " [INSECURE]";
+a[href^="grabify.link"]:after {
+  display: inline;
+  content: "[ IP LOGGER LINK ]";
 }
 
 #bd-pub-button {
