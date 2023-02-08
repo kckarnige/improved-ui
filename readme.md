@@ -4,8 +4,6 @@
 
 *I made this, first out of boredom, but now I genuinely want to make a good theme :D*
 
-**Custom Server Logos is only compatible with Powercord natively, [go to the readme for plugin versions](https://github.com/kckarnige/custom-server-logos/#--1)**
-
 [Credit to these amazing people!](https://github.com/kckarnige/improved-dc-ui/blob/master/CREDITS.md)
 
 <h1></h1>
