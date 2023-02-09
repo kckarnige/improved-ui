@@ -1,0 +1,18 @@
+{
+  "id": "dev.kckarnige.improved-ui",
+  "name": "Improved Discord UI",
+  "description": "A simple, slightly customizable theme for Discord",
+  "author": {
+    "name": "KayoticCarnige",
+    "discordID": "634168893644210186",
+    "github": "kckarnige"
+  },
+  "version": "2.3.2",
+  "updater": {
+    "type": "github",
+    "id": "kckarnige/improved-ui"
+  },
+  "license": "OSL-3.0",
+  "type": "replugged-theme",
+  "main": "theme.css"
+}
