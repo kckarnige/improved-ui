@@ -552,7 +552,7 @@ a[href*="grabify.link"]:hover:after {
     color: var(--wordmark-text-color);
     height: 19px;
     width: 235px;
-    transform: translateY(-8%);
+    transform: translateY(8%);
     line-height: 20px;
 }
 
